@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://her-story-africa-seven.vercel.app/sitemap.xml

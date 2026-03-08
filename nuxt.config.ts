@@ -141,7 +141,7 @@ export default defineNuxtConfig({
 
   // ── Site URL (required by sitemap + SEO modules) ───────────────────
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || "https://herstory-africa.com",
+    url: "https://her-story-africa-seven.vercel.app",
   },
 
   // ── Sitemap ─────────────────────────────────────────────────────────
@@ -170,7 +170,11 @@ export default defineNuxtConfig({
             "The women history forgot to teach you. An educational archive of African women who fought for equality, rights, and social change.",
         },
         { name: "theme-color", content: "#b5451b" },
-
+        {
+          name: "viewport",
+          content:
+            "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+        },
         // Open Graph
         { property: "og:type", content: "website" },
         { property: "og:site_name", content: "HerStory Africa" },
