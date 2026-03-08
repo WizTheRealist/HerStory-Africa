@@ -1,0 +1,371 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ═══════════════════════════════════════════════════════════════════════
+   HERSTORY AFRICA — Brand Theme System
+
+   Palette inspired by African earth, heritage, and resilience:
+   • Primary   (Terracotta)  → brand identity, CTAs, headings
+   • Secondary (Gold)        → highlights, achievements, accents
+   • Accent    (Forest)      → success, growth, nature (Wangari Maathai)
+   • Stone     (Neutrals)    → surfaces, borders, parchment tones
+   • Crimson   (Red)         → alerts, bold moments, resistance
+═══════════════════════════════════════════════════════════════════════ */
+
+/* ─── Light Mode · Semantic Tokens ─── */
+:root {
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Playfair Display", Georgia, serif;
+
+  --right: env(safe-area-inset-right, 0px);
+  --top: env(safe-area-inset-top, 0px);
+  --left: env(safe-area-inset-left, 0px);
+  --bottom: env(safe-area-inset-bottom, 0px);
+
+  /* Surfaces — warm parchment, archival feel */
+  --surface: #fdf8f3;
+  --surface-elevated: #ffffff;
+  --surface-muted: #f7f0e8;
+  --surface-subtle: #f0e6d8;
+
+  /* Text */
+  --text-primary: #1c0f07;
+  --text-secondary: #4a2e1a;
+  --text-muted: #8a6e5a;
+  --text-on-primary: #ffffff;
+  --text-on-secondary: #1c0f07;
+
+  /* Borders */
+  --border-default: #e0cfc0;
+  --border-light: #ede4d8;
+  --ring-default: #b5451b;
+
+  /* Overlay */
+  --overlay-default: rgba(28, 15, 7, 0.5);
+}
+
+/* ─── Dark Mode · Semantic Tokens ─── */
+.dark {
+  --surface: #120a04;
+  --surface-elevated: #1e1108;
+  --surface-muted: #2a1a0e;
+  --surface-subtle: #362214;
+
+  --text-primary: #f5ede4;
+  --text-secondary: #d4b89a;
+  --text-muted: #9a7d65;
+  --text-on-primary: #ffffff;
+  --text-on-secondary: #1c0f07;
+
+  --border-default: #362214;
+  --border-light: #2a1a0e;
+  --ring-default: #e06b3f;
+
+  --overlay-default: rgba(12, 6, 2, 0.75);
+}
+
+/* ─── Design Tokens (generates Tailwind utilities) ─── */
+@theme {
+  /* ── Primary · Terracotta (African earth, strength, resistance) ── */
+  --color-primary-50: #fdf3ee;
+  --color-primary-100: #fae4d6;
+  --color-primary-200: #f5c8ae;
+  --color-primary-300: #eda47d;
+  --color-primary-400: #e3784a;
+  --color-primary-500: #b5451b;
+  --color-primary-600: #9a3815;
+  --color-primary-700: #7d2c10;
+  --color-primary-800: #62210c;
+  --color-primary-900: #4a1908;
+  --color-primary-950: #2c0e03;
+  --color-primary: #b5451b;
+
+  /* ── Secondary · Gold (African heritage, achievement, royalty) ── */
+  --color-secondary-50: #fdf9ed;
+  --color-secondary-100: #faf1cc;
+  --color-secondary-200: #f5e08f;
+  --color-secondary-300: #edca52;
+  --color-secondary-400: #d4a827;
+  --color-secondary-500: #c8941a;
+  --color-secondary-600: #a87612;
+  --color-secondary-700: #87590d;
+  --color-secondary-800: #6a440a;
+  --color-secondary-900: #4f3208;
+  --color-secondary-950: #301d04;
+  --color-secondary: #c8941a;
+
+  /* ── Forest · Green (growth, nature — Wangari Maathai) ── */
+  --color-forest-50: #edf7f0;
+  --color-forest-100: #d2edda;
+  --color-forest-200: #a7dbb6;
+  --color-forest-300: #74c28d;
+  --color-forest-400: #44a66a;
+  --color-forest-500: #2d8a52;
+  --color-forest-600: #237040;
+  --color-forest-700: #1b5731;
+  --color-forest-800: #154224;
+  --color-forest-900: #0f2f1a;
+  --color-forest-950: #081c0f;
+  --color-forest: #2d8a52;
+
+  /* ── Crimson · Red (resistance, alerts, bold moments) ── */
+  --color-crimson-50: #fff4f4;
+  --color-crimson-100: #ffe4e4;
+  --color-crimson-200: #ffc9c9;
+  --color-crimson-300: #ffa0a0;
+  --color-crimson-400: #f76767;
+  --color-crimson-500: #e03232;
+  --color-crimson-600: #c42020;
+  --color-crimson-700: #a01818;
+  --color-crimson-800: #7e1212;
+  --color-crimson-900: #5c0d0d;
+  --color-crimson-950: #380808;
+  --color-crimson: #e03232;
+
+  /* ── Stone · Warm Neutrals (parchment, archival surfaces) ── */
+  --color-stone-50: #fdf8f3;
+  --color-stone-100: #f7f0e8;
+  --color-stone-200: #f0e6d8;
+  --color-stone-300: #e0cfc0;
+  --color-stone-400: #c8b09a;
+  --color-stone-500: #a8906f;
+  --color-stone-600: #8a7055;
+  --color-stone-700: #6a533e;
+  --color-stone-800: #4e3c2c;
+  --color-stone-900: #33271c;
+  --color-stone-950: #1c1610;
+
+  /* ── Semantic Aliases (reactive to light/dark) ── */
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-subtle: var(--surface-subtle);
+  --color-foreground: var(--text-primary);
+  --color-foreground-secondary: var(--text-secondary);
+  --color-foreground-muted: var(--text-muted);
+  --color-on-primary: var(--text-on-primary);
+  --color-on-secondary: var(--text-on-secondary);
+  --color-border: var(--border-default);
+  --color-border-light: var(--border-light);
+  --color-ring: var(--ring-default);
+  --color-overlay: var(--overlay-default);
+
+  /* ── Brand Shadows ── */
+  --shadow-soft:
+    0 2px 15px -3px rgba(181, 69, 27, 0.08),
+    0 4px 6px -4px rgba(181, 69, 27, 0.04);
+  --shadow-glow: 0 0 20px rgba(181, 69, 27, 0.2);
+  --shadow-card:
+    0 1px 3px rgba(28, 15, 7, 0.06), 0 1px 2px rgba(28, 15, 7, 0.04);
+  --shadow-elevated:
+    0 10px 25px -5px rgba(28, 15, 7, 0.12),
+    0 8px 10px -6px rgba(28, 15, 7, 0.05);
+}
+
+/* ═══════════════════════════════════════════════
+   Base Element Styles
+═══════════════════════════════════════════════ */
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px;
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 0;
+  padding: 0;
+  background: var(--surface);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-weight: 400;
+  min-height: 100dvh;
+  width: 100vw;
+  font-display: swap;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+#__nuxt {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-height: 100dvh;
+  padding-left: var(--left);
+  padding-right: var(--right);
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  appearance: none;
+  font-family: var(--font-body);
+}
+
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+select:focus,
+select:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ═══════════════════════════════════════════════
+   Section Layout (shared by Home sections)
+═══════════════════════════════════════════════ */
+
+.section {
+  padding: 3.5rem 1.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 4.5rem 2rem;
+  }
+}
+
+.section__header {
+  margin-bottom: 1.75rem;
+}
+
+.section__header:has(.section__cta) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.section__title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.section__subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin: 0.375rem 0 0;
+}
+
+.section__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: gap 0.2s ease;
+}
+
+.section__cta:hover {
+  gap: 0.625rem;
+}
+
+/* ═══════════════════════════════════════════════
+   Component Helpers
+═══════════════════════════════════════════════ */
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(env(safe-area-inset-top) + 1rem) 1rem 1rem;
+  background: var(--surface-elevated);
+  border-bottom: 1px solid var(--border-light);
+}
+
+/* ─── Brand Gradients ─── */
+.gradient-brand {
+  background: linear-gradient(135deg, #b5451b, #c8941a);
+}
+
+.gradient-brand-deep {
+  background: linear-gradient(135deg, #7d2c10, #b5451b);
+}
+
+.gradient-brand-warm {
+  background: linear-gradient(135deg, #c8941a, #b5451b);
+}
+
+.gradient-brand-forest {
+  background: linear-gradient(135deg, #2d8a52, #b5451b);
+}
+
+.gradient-brand-text {
+  background: linear-gradient(135deg, #b5451b, #c8941a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-brand-subtle {
+  background: linear-gradient(135deg, #fdf3ee, #fdf9ed);
+}
+
+.dark .gradient-brand-subtle {
+  background: linear-gradient(135deg, #2c0e03, #301d04);
+}
+
+/* ─── Skeleton Loading ─── */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.skeleton {
+  background: var(--surface-subtle);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  border-radius: 0.5rem;
+}
+
+.dark .skeleton {
+  background: var(--surface-muted);
+}

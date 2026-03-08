@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b5451b"/>
+      <stop offset="100%" stop-color="#c8941a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Africa shape -->
+  <path
+    d="M 16,1 C 20,1 24,3 25,7 C 26,10 27,14 25,18 C 27,22 26,26 24,28 C 22,30 19,31 16,31 C 13,31 10,30 8,28 C 6,26 5,22 7,18 C 5,14 6,10 7,7 C 8,3 12,1 16,1 Z"
+    fill="url(#g)"
+    opacity="0.2"
+  />
+  <path
+    d="M 16,1 C 20,1 24,3 25,7 C 26,10 27,14 25,18 C 27,22 26,26 24,28 C 22,30 19,31 16,31 C 13,31 10,30 8,28 C 6,26 5,22 7,18 C 5,14 6,10 7,7 C 8,3 12,1 16,1 Z"
+    stroke="url(#g)"
+    stroke-width="1.5"
+    fill="none"
+  />
+
+  <!-- Centre dot -->
+  <circle cx="16" cy="17" r="3" fill="url(#g)"/>
+  <circle cx="16" cy="17" r="5" fill="none" stroke="#c8941a" stroke-width="0.8" opacity="0.5"/>
+</svg>
