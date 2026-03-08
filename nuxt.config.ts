@@ -187,7 +187,9 @@ export default defineNuxtConfig({
           content:
             "An educational archive of African women who fought for equality, rights, and social change across history.",
         },
-        { property: "og:image", content: "/og-image.png" }, // add this image to /public/
+        { property: "og:image", content: "https://her-story-africa-seven.vercel.app/og-image.png" },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
 
         // Twitter / X Card
         { name: "twitter:card", content: "summary_large_image" },
@@ -201,7 +203,7 @@ export default defineNuxtConfig({
           content:
             "An educational archive of African women who fought for equality, rights, and social change across history.",
         },
-        { name: "twitter:image", content: "/og-image.png" },
+        { name: "twitter:image", content: "https://her-story-africa-seven.vercel.app/og-image.png" },
       ],
 
       link: [
