@@ -45,7 +45,7 @@
 
 <script setup lang="ts">
 const { data: women } = await useAsyncData("featured-women", () =>
-  queryCollection("women").where("featured", "=", true).limit(6).all(),
+  queryCollection("women").where("featured", "=", true).limit(5).all(),
 );
 </script>
 
