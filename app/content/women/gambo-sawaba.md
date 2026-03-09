@@ -25,7 +25,7 @@ Her formal education ended at primary school level, but her political education 
 
 ## Historical Context
 
-In Northern Nigeria's colonial and post-independence period, women's political participation was barely conceivable. The region was governed by conservative Islamic emirate structures that the British colonial administration had preserved and worked through. Women in purdah, women barred from public life, women told their role was in the home — that was the status quo that Gambo Sawaba decided to disrupt.
+In Northern Nigeria's colonial and post-independence period, women's political participation was barely conceivable. The region was governed by conservative Islamic emirate structures that the British colonial administration had preserved and worked through. Women in purdah, women barred from public life, women told their role was in the home. That was the status quo that Gambo Sawaba decided to disrupt.
 
 She was not from an elite family. She had no protection. She had no powerful husband shielding her. She had conviction and she had her voice.
 

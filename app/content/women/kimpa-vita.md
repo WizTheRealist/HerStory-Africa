@@ -52,4 +52,4 @@ She was a woman who tried to give a broken kingdom back its soul, and was killed
 
 ---
 
-*Sources: Wikipedia (Kimpa Vita), John K. Thornton — The Kongolese Saint Anthony, Encyclopædia Britannica*
+*Sources: Wikipedia (Kimpa Vita), John K. Thornton, The Kongolese Saint Anthony, Encyclopædia Britannica*

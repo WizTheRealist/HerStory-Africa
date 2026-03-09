@@ -14,11 +14,29 @@
         class="articles-listing__search"
         @submit="currentPage = 1"
       />
-      <FilterBy
-        v-model="activeCategory"
-        label="Category"
-        :options="[...ARTICLE_CATEGORIES]"
-      />
+
+      <button class="articles-listing__filter-toggle" @click="filtersOpen = !filtersOpen">
+        <LucideSlidersHorizontal :size="16" />
+        Filters
+        <span v-if="activeFilterCount" class="articles-listing__filter-badge">{{ activeFilterCount }}</span>
+        <LucideChevronDown :size="16" :class="{ 'articles-listing__chevron--open': filtersOpen }" />
+      </button>
+
+      <div class="articles-listing__filter-panel" :class="{ 'articles-listing__filter-panel--open': filtersOpen }">
+        <div class="articles-listing__filter-panel-inner">
+          <FilterBy
+            v-model="activeCategory"
+            label="Category"
+            :options="[...ARTICLE_CATEGORIES]"
+          />
+          <FilterBy
+            v-model="readFilter"
+            label="Status"
+            :options="['Read', 'Unread']"
+            inline
+          />
+        </div>
+      </div>
     </div>
 
     <div v-if="paginatedArticles.length" class="articles-listing__list">
@@ -54,7 +72,15 @@ const router = useRouter()
 const PER_PAGE = 10
 const searchQuery = ref((route.query.q as string) ?? '')
 const activeCategory = ref((route.query.category as string) ?? '')
+const readFilter = ref('')
 const currentPage = ref(Number(route.query.page) || 1)
+const filtersOpen = ref(false)
+
+const activeFilterCount = computed(() =>
+  [activeCategory.value, readFilter.value].filter(Boolean).length,
+)
+
+const { isRead } = useApp()
 
 const { data: allArticles } = await useAsyncData('all-articles', () =>
   queryCollection('articles').order('date', 'DESC').all(),
@@ -69,6 +95,8 @@ const filteredArticles = computed(() => {
       return false
     }
     if (activeCategory.value && a.category !== activeCategory.value) return false
+    if (readFilter.value === 'Read' && !isRead('article', a.slug)) return false
+    if (readFilter.value === 'Unread' && isRead('article', a.slug)) return false
     return true
   })
 })
@@ -81,7 +109,7 @@ const paginatedArticles = computed(() => {
   return filteredArticles.value.slice(start, start + PER_PAGE)
 })
 
-watch([searchQuery, activeCategory], () => {
+watch([searchQuery, activeCategory, readFilter], () => {
   currentPage.value = 1
   const query: Record<string, string> = {}
   if (searchQuery.value) query.q = searchQuery.value
@@ -100,6 +128,7 @@ watch(currentPage, (page) => {
 function clearFilters() {
   searchQuery.value = ''
   activeCategory.value = ''
+  readFilter.value = ''
 }
 
 useSeoMeta({
@@ -141,12 +170,93 @@ useSeoMeta({
 .articles-listing__toolbar {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
 .articles-listing__search {
   max-width: 100%;
+}
+
+.articles-listing__filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  border-radius: 9999px;
+  border: 1.5px solid var(--border-default);
+  background: var(--surface-elevated);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  align-self: flex-start;
+}
+
+.articles-listing__filter-toggle:hover {
+  border-color: var(--ring-default);
+  color: var(--text-primary);
+}
+
+.articles-listing__filter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  padding: 0 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  background: var(--color-primary);
+  color: var(--text-on-primary);
+}
+
+.articles-listing__chevron--open {
+  transform: rotate(180deg);
+}
+
+.articles-listing__filter-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+  margin-top: -1rem;
+}
+
+.articles-listing__filter-panel-inner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 0;
+  transition: padding-top 0.25s ease;
+}
+
+.articles-listing__filter-panel--open {
+  grid-template-rows: 1fr;
+  margin-top: 0;
+}
+
+.articles-listing__filter-panel--open .articles-listing__filter-panel-inner {
+  padding-top: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .articles-listing__filter-toggle {
+    display: none;
+  }
+
+  .articles-listing__filter-panel {
+    grid-template-rows: 1fr;
+    margin-top: 0;
+  }
+
+  .articles-listing__filter-panel-inner {
+    overflow: visible;
+    padding-top: 0;
+  }
 }
 
 .articles-listing__list {

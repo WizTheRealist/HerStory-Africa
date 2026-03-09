@@ -49,4 +49,4 @@ Her name is carried by schools and scholarships across Nigeria. The Yan Taru mod
 
 ---
 
-*Sources: Wikipedia (Nana Asma'u), Beverly Mack and Jean Boyd — One Woman's Jihad, Encyclopædia Britannica*
+*Sources: Wikipedia (Nana Asma'u), Beverly Mack and Jean Boyd, One Woman's Jihad, Encyclopædia Britannica*

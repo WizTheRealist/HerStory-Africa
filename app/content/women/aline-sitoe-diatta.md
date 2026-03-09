@@ -49,4 +49,4 @@ She was 24 when she died. She had accomplished more in two years of resistance t
 
 ---
 
-*Sources: Wikipedia (Aline Sitoé Diatta), Senegalese National Archives, Robert Baum — Shrines of the Slave Trade*
+*Sources: Wikipedia (Aline Sitoé Diatta), Senegalese National Archives, Robert Baum, Shrines of the Slave Trade*

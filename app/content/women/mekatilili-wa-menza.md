@@ -51,4 +51,4 @@ She is proof that resistance does not require weapons. Sometimes it requires a d
 
 ---
 
-*Sources: Wikipedia (Mekatilili wa Menza), Kenya National Archives, Cynthia Brantley — The Giriama and Colonial Resistance in Kenya*
+*Sources: Wikipedia (Mekatilili wa Menza), Kenya National Archives, Cynthia Brantley, The Giriama and Colonial Resistance in Kenya*

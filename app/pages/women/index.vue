@@ -15,17 +15,35 @@
         @submit="currentPage = 1"
       />
 
-      <div class="women-listing__filters">
-        <FilterBy
-          v-model="activeRegion"
-          label="Region"
-          :options="[...REGIONS]"
-        />
-        <FilterBy
-          v-model="activeEra"
-          label="Era"
-          :options="[...ERAS]"
-        />
+      <button class="women-listing__filter-toggle" @click="filtersOpen = !filtersOpen">
+        <LucideSlidersHorizontal :size="16" />
+        Filters
+        <span v-if="activeFilterCount" class="women-listing__filter-badge">{{ activeFilterCount }}</span>
+        <LucideChevronDown :size="16" :class="{ 'women-listing__chevron--open': filtersOpen }" />
+      </button>
+
+      <div class="women-listing__filter-panel" :class="{ 'women-listing__filter-panel--open': filtersOpen }">
+        <div class="women-listing__filter-panel-inner">
+          <div class="women-listing__filters">
+            <FilterBy
+              v-model="activeRegion"
+              label="Region"
+              :options="[...REGIONS]"
+            />
+            <FilterBy
+              v-model="activeEra"
+              label="Era"
+              :options="[...ERAS]"
+            />
+          </div>
+
+          <FilterBy
+            v-model="readFilter"
+            label="Status"
+            :options="['Read', 'Unread']"
+            inline
+          />
+        </div>
       </div>
     </div>
 
@@ -72,7 +90,15 @@ const searchQuery = ref((route.query.q as string) ?? '')
 const activeRegion = ref((route.query.region as string) ?? '')
 const activeEra = ref((route.query.era as string) ?? '')
 const activeCause = ref((route.query.cause as string) ?? '')
+const readFilter = ref('')
 const currentPage = ref(Number(route.query.page) || 1)
+const filtersOpen = ref(false)
+
+const activeFilterCount = computed(() =>
+  [activeRegion.value, activeEra.value, activeCause.value, readFilter.value].filter(Boolean).length,
+)
+
+const { isRead } = useApp()
 
 const { data: allWomen } = await useAsyncData('all-women', () =>
   queryCollection('women').order('name', 'ASC').all(),
@@ -89,6 +115,8 @@ const filteredWomen = computed(() => {
     if (activeRegion.value && w.region !== activeRegion.value) return false
     if (activeEra.value && w.era !== activeEra.value) return false
     if (activeCause.value && !w.causes.some(c => c === activeCause.value)) return false
+    if (readFilter.value === 'Read' && !isRead('woman', w.slug)) return false
+    if (readFilter.value === 'Unread' && isRead('woman', w.slug)) return false
     return true
   })
 })
@@ -111,7 +139,7 @@ function syncUrl() {
   router.replace({ query })
 }
 
-watch([searchQuery, activeRegion, activeEra, activeCause], () => {
+watch([searchQuery, activeRegion, activeEra, activeCause, readFilter], () => {
   currentPage.value = 1
   syncUrl()
 })
@@ -123,6 +151,7 @@ function clearFilters() {
   activeRegion.value = ''
   activeEra.value = ''
   activeCause.value = ''
+  readFilter.value = ''
 }
 
 useSeoMeta({
@@ -164,7 +193,7 @@ useSeoMeta({
 .women-listing__toolbar {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -172,16 +201,99 @@ useSeoMeta({
   max-width: 100%;
 }
 
+.women-listing__filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  border-radius: 9999px;
+  border: 1.5px solid var(--border-default);
+  background: var(--surface-elevated);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  align-self: flex-start;
+}
+
+.women-listing__filter-toggle:hover {
+  border-color: var(--ring-default);
+  color: var(--text-primary);
+}
+
+.women-listing__filter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  padding: 0 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  background: var(--color-primary);
+  color: var(--text-on-primary);
+}
+
+.women-listing__chevron--open {
+  transform: rotate(180deg);
+}
+
+.women-listing__filter-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+  margin-top: -1rem;
+}
+
+.women-listing__filter-panel-inner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 0;
+  transition: padding-top 0.25s ease;
+}
+
+.women-listing__filter-panel--open {
+  grid-template-rows: 1fr;
+  margin-top: 0;
+}
+
+.women-listing__filter-panel--open .women-listing__filter-panel-inner {
+  padding-top: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .women-listing__filter-toggle {
+    display: none;
+  }
+
+  .women-listing__filter-panel {
+    grid-template-rows: 1fr;
+    margin-top: 0;
+  }
+
+  .women-listing__filter-panel-inner {
+    overflow: visible;
+    padding-top: 0;
+  }
+}
+
 .women-listing__filters {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding-top: 0.5rem;
 }
 
 @media (min-width: 640px) {
   .women-listing__filters {
     flex-direction: row;
     gap: 2rem;
+    padding-top: 0;
   }
 }
 

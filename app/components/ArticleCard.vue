@@ -10,12 +10,23 @@
         <time class="article-card__date" :datetime="date">
           {{ formattedDate }}
         </time>
+        <ClientOnly>
+          <span v-if="read" class="article-card__read-badge">
+            <LucideCheck :size="12" />
+            Read
+          </span>
+        </ClientOnly>
       </div>
       <h3 class="article-card__title">{{ title }}</h3>
       <p class="article-card__description">{{ description }}</p>
     </div>
 
-    <LucideArrowRight :size="18" class="article-card__arrow" />
+    <div class="article-card__actions">
+      <ClientOnly>
+        <FavoriteButton type="article" :slug="slug" :size="16" />
+      </ClientOnly>
+      <LucideArrowRight :size="18" class="article-card__arrow" />
+    </div>
   </NuxtLink>
 </template>
 
@@ -27,6 +38,9 @@ const props = defineProps<{
   slug: string
   category?: string
 }>()
+
+const { isRead } = useApp()
+const read = computed(() => isRead('article', props.slug))
 
 const formattedDate = computed(() => {
   const d = new Date(props.date)
@@ -102,6 +116,15 @@ const formattedDate = computed(() => {
   color: var(--text-muted);
 }
 
+.article-card__read-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--color-success, #16a34a);
+}
+
 .article-card__title {
   font-size: 1rem;
   font-weight: 700;
@@ -119,6 +142,14 @@ const formattedDate = computed(() => {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.article-card__actions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .article-card__arrow {

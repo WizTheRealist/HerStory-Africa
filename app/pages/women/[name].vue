@@ -22,7 +22,12 @@
         </div>
 
         <div class="woman-profile__intro">
-          <span class="woman-profile__era-badge">{{ woman.era }} era</span>
+          <div class="woman-profile__top-row">
+            <span class="woman-profile__era-badge">{{ woman.era }} era</span>
+            <ClientOnly>
+              <FavoriteButton type="woman" :slug="woman.slug" :size="22" />
+            </ClientOnly>
+          </div>
           <h1 class="woman-profile__name">{{ woman.name }}</h1>
 
           <div class="woman-profile__meta">
@@ -34,6 +39,12 @@
               <LucideCalendar :size="16" />
               {{ woman.born }}{{ woman.died ? `–${woman.died}` : "–present" }}
             </span>
+            <ClientOnly>
+              <span v-if="womanRead" class="woman-profile__read-badge">
+                <LucideCheck :size="14" />
+                Read
+              </span>
+            </ClientOnly>
           </div>
 
           <p class="woman-profile__summary">{{ woman.summary }}</p>
@@ -55,6 +66,8 @@
     <div class="woman-profile__content">
       <ContentRenderer :value="woman" />
     </div>
+
+    <div ref="readSentinel" />
 
     <aside v-if="related?.length" class="woman-profile__related">
       <h2 class="woman-profile__related-title">More from {{ woman.region }}</h2>
@@ -92,6 +105,17 @@ const route = useRoute();
 const { data: woman } = await useAsyncData(`woman-${route.path}`, () =>
   queryCollection("women").path(route.path).first(),
 );
+
+const readSentinel = ref<HTMLElement | null>(null);
+
+const { isRead } = useApp();
+const womanRead = computed(() =>
+  woman.value ? isRead("woman", woman.value.slug) : false,
+);
+
+if (woman.value?.slug) {
+  useReadTracker("woman", woman.value.slug, readSentinel);
+}
 
 const { data: related } = await useAsyncData(
   `related-${route.path}`,
@@ -176,6 +200,12 @@ useSeoMeta({
   gap: 0.75rem;
 }
 
+.woman-profile__top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .woman-profile__era-badge {
   display: inline-flex;
   align-self: flex-start;
@@ -200,7 +230,17 @@ useSeoMeta({
 .woman-profile__meta {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 1.25rem;
+}
+
+.woman-profile__read-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-success, #16a34a);
 }
 
 .woman-profile__meta-item {

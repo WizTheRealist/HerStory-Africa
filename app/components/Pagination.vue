@@ -35,6 +35,8 @@
 </template>
 
 <script setup lang="ts">
+import scrollToTop from '~/utils/scrollToTop'
+
 const props = defineProps<{
   modelValue: number
   totalPages: number
@@ -43,6 +45,10 @@ const props = defineProps<{
 defineEmits<{
   'update:modelValue': [page: number]
 }>()
+
+watch(() => props.modelValue, () => {
+  scrollToTop()
+})
 
 const visiblePages = computed(() => {
   const total = props.totalPages

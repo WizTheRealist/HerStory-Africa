@@ -13,6 +13,8 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "nuxt-lucide-icons",
     "@nuxtjs/sitemap",
+    "@pinia/nuxt",
+    "pinia-plugin-persistedstate/nuxt",
   ],
 
   // ── Static Site Generation ──────────────────────────────────────────
@@ -187,7 +189,10 @@ export default defineNuxtConfig({
           content:
             "An educational archive of African women who fought for equality, rights, and social change across history.",
         },
-        { property: "og:image", content: "https://her-story-africa-seven.vercel.app/og-image.png" },
+        {
+          property: "og:image",
+          content: "https://her-story-africa-seven.vercel.app/og-image.png",
+        },
         { property: "og:image:width", content: "1200" },
         { property: "og:image:height", content: "630" },
 
@@ -203,7 +208,10 @@ export default defineNuxtConfig({
           content:
             "An educational archive of African women who fought for equality, rights, and social change across history.",
         },
-        { name: "twitter:image", content: "https://her-story-africa-seven.vercel.app/og-image.png" },
+        {
+          name: "twitter:image",
+          content: "https://her-story-africa-seven.vercel.app/og-image.png",
+        },
       ],
 
       link: [

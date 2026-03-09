@@ -49,4 +49,4 @@ Aoua Keita died on 22 May 1980 in Bamako. Her autobiography remains a key text i
 
 ---
 
-*Sources: Wikipedia (Aoua Keita), Encyclopædia Britannica, Aoua Keita — Femme d'Afrique (1975)*
+*Sources: Wikipedia (Aoua Keita), Encyclopædia Britannica, Aoua Keita, Femme d'Afrique (1975)*

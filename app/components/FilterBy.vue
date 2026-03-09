@@ -1,5 +1,5 @@
 <template>
-  <div class="filter-by">
+  <div class="filter-by" :class="{ 'filter-by--inline': inline }">
     <div v-if="label" class="filter-by__header">
       <LucideSlidersHorizontal :size="16" class="filter-by__icon" />
       <span class="filter-by__label">{{ label }}</span>
@@ -30,8 +30,10 @@ withDefaults(defineProps<{
   label?: string
   options: string[]
   modelValue: string
+  inline?: boolean
 }>(), {
   label: '',
+  inline: false,
 })
 
 defineEmits<{
@@ -40,6 +42,16 @@ defineEmits<{
 </script>
 
 <style scoped>
+.filter-by--inline {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.filter-by--inline .filter-by__header {
+  margin-bottom: 0;
+}
+
 .filter-by__header {
   display: flex;
   align-items: center;

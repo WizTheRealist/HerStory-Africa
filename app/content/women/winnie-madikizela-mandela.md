@@ -31,7 +31,7 @@ When Nelson Mandela was imprisoned in 1964, the apartheid government assumed the
 
 ## What She Fought For
 
-Winnie Mandela refused to be silenced. For 27 years she kept the ANC's cause alive domestically — organising, speaking, resisting — while the government banned her, imprisoned her, and subjected her to years of solitary confinement and brutal interrogation.
+Winnie Mandela refused to be silenced. For 27 years she kept the ANC's cause alive domestically, organising, speaking, and resisting, while the government banned her, imprisoned her, and subjected her to years of solitary confinement and brutal interrogation.
 
 She was banished to the township of Brandfort in the Orange Free State, a place where few spoke her language, and still she organised. She turned her banishment house into a community clinic and a crèche. She returned to Soweto without permission.
 

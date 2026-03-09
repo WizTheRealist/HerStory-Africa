@@ -19,7 +19,7 @@ summary: "16th-century warrior queen of Zazzau (modern Zaria, Kaduna State, Nige
 
 ## Biography
 
-Amina (also called Aminatu) was born around 1533 in Zazzau, the Hausa city-state in what is now Kaduna State in northwestern Nigeria. She was the daughter of King Nikatau, the 22nd ruler of Zazzau, and Queen Bakwa Turunku, who herself ruled Zazzau from around 1536. Amina grew up in her grandfather's court, where — unusually for a girl of her time — she was instructed carefully in political and military matters.
+Amina (also called Aminatu) was born around 1533 in Zazzau, the Hausa city-state in what is now Kaduna State in northwestern Nigeria. She was the daughter of King Nikatau, the 22nd ruler of Zazzau, and Queen Bakwa Turunku, who herself ruled Zazzau from around 1536. Amina grew up in her grandfather's court, where, unusually for a girl of her time, she was instructed carefully in political and military matters.
 
 By age 16 she had been designated Magajiya, heir apparent, and was already known for her military interests. She reportedly refused all marriage proposals. At a time when women of royal blood were expected to marry into alliances, Amina chose the sword.
 
@@ -35,13 +35,13 @@ Into this world, Amina stepped not as a queen who held court but as a military c
 
 Amina's campaigns lasted 34 years. She extended Zazzau's territory to the south, reaching the Niger River and into modern-day Kogi State. Her armies subdued neighbouring states, extracted tribute from conquered territories, and opened critical trade routes for Zazzau. The city-state under her rule reached the largest territorial extent in its history.
 
-Her signature military legacy was the construction of defensive earthwork walls around every military camp. These became known as **Ganuwar Amina** — Amina's walls. The walls at Zaria — a remarkable feat of engineering — survive in part to this day and bear her name.
+Her signature military legacy was the construction of defensive earthwork walls around every military camp. These became known as **Ganuwar Amina** (Amina's walls). The walls at Zaria, a remarkable feat of engineering, survive in part to this day and bear her name.
 
 She is celebrated in traditional Hausa praise-songs as: *"Amina, daughter of Nikatau, a woman as capable as a man, that was able to lead men to war."*
 
 ## Major Achievements
 
-- Ruled Zazzau as queen (Sarauniya) from 1576 to 1610 — 34 years
+- Ruled Zazzau as queen (Sarauniya) from 1576 to 1610 (34 years)
 - Conducted military campaigns as far south as the Niger and Benue rivers
 - Extended Zazzau's territory to its greatest historical extent
 - Built defensive earthwork walls (Ganuwar Amina) around every military encampment
@@ -53,7 +53,7 @@ She is celebrated in traditional Hausa praise-songs as: *"Amina, daughter of Nik
 
 Queen Amina remains one of the most powerful symbols of female leadership in Nigerian and African history. She is the subject of songs, plays, novels, and a popular television series. The National Electric Power Authority named a power station after her. The 1980s Nigerian TV historical drama *Amina of Zazzau* brought her story to a mass audience.
 
-Her statue stands outside the National Arts Theatre in Lagos — a warrior queen on horseback, spear raised. She represents the long pre-colonial tradition of women in political and military power on the African continent, a tradition that colonialism worked hard to erase.
+Her statue stands outside the National Arts Theatre in Lagos: a warrior queen on horseback, spear raised. She represents the long pre-colonial tradition of women in political and military power on the African continent, a tradition that colonialism worked hard to erase.
 
 ---
 

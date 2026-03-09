@@ -11,6 +11,14 @@
         class="woman-card__image"
       />
       <span class="woman-card__era">{{ era }}</span>
+      <ClientOnly>
+        <FavoriteButton
+          type="woman"
+          :slug="slug"
+          :size="16"
+          class="woman-card__fav"
+        />
+      </ClientOnly>
     </div>
 
     <div class="woman-card__body">
@@ -22,6 +30,12 @@
           >· {{ born }}{{ died ? `–${died}` : "–present" }}</span
         >
       </p>
+      <ClientOnly>
+        <span v-if="read" class="woman-card__read-badge">
+          <LucideCheck :size="12" />
+          Read
+        </span>
+      </ClientOnly>
       <p class="woman-card__summary">{{ summary }}</p>
       <div class="woman-card__causes">
         <span v-for="cause in displayCauses" :key="cause" class="cause-tag">
@@ -58,6 +72,9 @@ const props = withDefaults(
 );
 
 const displayCauses = computed(() => props.causes.slice(0, props.maxCauses));
+
+const { isRead } = useApp();
+const read = computed(() => isRead('woman', props.slug));
 </script>
 
 <style scoped>
@@ -111,6 +128,17 @@ const displayCauses = computed(() => props.causes.slice(0, props.maxCauses));
   backdrop-filter: blur(6px);
 }
 
+.woman-card__fav {
+  position: absolute;
+  top: 0.625rem;
+  left: 0.625rem;
+  background: var(--overlay-default);
+  color: #fff;
+  backdrop-filter: blur(6px);
+  border-radius: 50%;
+  padding: 0.4375rem;
+}
+
 .woman-card__body {
   display: flex;
   flex-direction: column;
@@ -137,6 +165,16 @@ const displayCauses = computed(() => props.causes.slice(0, props.maxCauses));
 
 .woman-card__dates {
   color: var(--text-muted);
+}
+
+.woman-card__read-badge {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.2rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--color-success, #16a34a);
 }
 
 .woman-card__summary {

@@ -25,7 +25,7 @@ She began singing professionally in the 1950s, joining the Manhattan Brothers an
 
 ## Historical Context
 
-Apartheid South Africa criminalised not only resistance but ordinary Black life. The pass laws, the forced removals, the banning of interracial relationships — all of it formed the backdrop of Makeba's early life. Black artists could perform for white audiences but could not eat in the same restaurants or stay in the same hotels.
+Apartheid South Africa criminalised not only resistance but ordinary Black life. The pass laws, the forced removals, the banning of interracial relationships: all of it formed the backdrop of Makeba's early life. Black artists could perform for white audiences but could not eat in the same restaurants or stay in the same hotels.
 
 When Makeba left South Africa to attend the London premiere of *Come Back, Africa* in 1959, the South African government revoked her passport. She could not return for her mother's funeral. She would not set foot in South Africa again for 31 years.
 

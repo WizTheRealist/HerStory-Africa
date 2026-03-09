@@ -25,7 +25,7 @@ She married **Walter Sisulu**, a leading ANC figure, in 1944, and with that marr
 
 ## Historical Context
 
-When the apartheid government imprisoned Walter Sisulu alongside Nelson Mandela following the Rivonia Trial in 1964, their intention was to decapitate the ANC's leadership. The wives and families of imprisoned activists were left to manage households, raise children, and resist — all while under surveillance, banned from political activity, and denied normal employment.
+When the apartheid government imprisoned Walter Sisulu alongside Nelson Mandela following the Rivonia Trial in 1964, their intention was to decapitate the ANC's leadership. The wives and families of imprisoned activists were left to manage households, raise children, and resist, all while under surveillance, banned from political activity, and denied normal employment.
 
 Albertina Sisulu refused to disappear.
 

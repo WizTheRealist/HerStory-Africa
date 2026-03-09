@@ -6,9 +6,22 @@
     </button>
 
     <header class="article-page__header">
-      <time class="article-page__date" :datetime="article.date">
-        {{ formattedDate }}
-      </time>
+      <div class="article-page__top-row">
+        <div class="article-page__top-left">
+          <time class="article-page__date" :datetime="article.date">
+            {{ formattedDate }}
+          </time>
+          <ClientOnly>
+            <span v-if="articleRead" class="article-page__read-badge">
+              <LucideCheck :size="14" />
+              Read
+            </span>
+          </ClientOnly>
+        </div>
+        <ClientOnly>
+          <FavoriteButton type="article" :slug="article.slug" :size="20" />
+        </ClientOnly>
+      </div>
       <h1 class="article-page__title">{{ article.title }}</h1>
       <p class="article-page__description">{{ article.description }}</p>
     </header>
@@ -16,6 +29,8 @@
     <div class="article-page__content">
       <ContentRenderer :value="article" />
     </div>
+
+    <div ref="readSentinel" />
 
     <footer class="article-page__footer">
       <NuxtLink to="/" class="article-page__footer-link">
@@ -39,6 +54,17 @@ const route = useRoute();
 const { data: article } = await useAsyncData(`article-${route.path}`, () =>
   queryCollection("articles").path(route.path).first(),
 );
+
+const readSentinel = ref<HTMLElement | null>(null);
+
+const { isRead } = useApp();
+const articleRead = computed(() =>
+  article.value ? isRead("article", article.value.slug) : false,
+);
+
+if (article.value?.slug) {
+  useReadTracker("article", article.value.slug, readSentinel);
+}
 
 const formattedDate = computed(() => {
   if (!article.value?.date) return "";
@@ -76,6 +102,27 @@ useSeoMeta({
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-light);
+}
+
+.article-page__top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article-page__top-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.article-page__read-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-success, #16a34a);
 }
 
 .article-page__date {

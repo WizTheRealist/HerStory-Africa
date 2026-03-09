@@ -14,7 +14,7 @@ causes:
 image: "/women/amina-j-mohammed.jpg"
 imageCredit: "Wikimedia Commons / UN Photo / CC BY-NC-ND 2.0"
 featured: true
-summary: "Nigerian diplomat and UN Deputy Secretary-General since 2017. Formerly Nigeria's Minister of Environment. One of the chief architects of the United Nations' Sustainable Development Goals (SDGs) — the global framework guiding international development until 2030. The highest-ranking Nigerian in the history of the United Nations."
+summary: "Nigerian diplomat and UN Deputy Secretary-General since 2017. Formerly Nigeria's Minister of Environment. One of the chief architects of the United Nations' Sustainable Development Goals (SDGs), the global framework guiding international development until 2030. The highest-ranking Nigerian in the history of the United Nations."
 ---
 
 ## Biography
@@ -25,7 +25,7 @@ Her transition into international development came through her work on large-sca
 
 ## Historical Context
 
-The Sustainable Development Goals (SDGs) are the United Nations' framework of 17 global goals — covering poverty, health, education, gender equality, climate action, and more — adopted by 193 countries in 2015. They replaced the Millennium Development Goals and set the global development agenda through 2030. Getting 193 nations to agree on a common framework required years of negotiation, consultation, and political will.
+The Sustainable Development Goals (SDGs) are the United Nations' framework of 17 global goals covering poverty, health, education, gender equality, climate action, and more, adopted by 193 countries in 2015. They replaced the Millennium Development Goals and set the global development agenda through 2030. Getting 193 nations to agree on a common framework required years of negotiation, consultation, and political will.
 
 Amina J. Mohammed was at the centre of that process.
 
@@ -35,14 +35,14 @@ As **Special Adviser to UN Secretary-General Ban Ki-moon** on Post-2015 Developm
 
 In 2015, she was appointed **Nigeria's Minister of Environment** under President Muhammadu Buhari, where she championed Nigeria's transition to cleaner energy and its commitments under the Paris Agreement on climate change.
 
-In January 2017, UN Secretary-General António Guterres appointed her **Deputy Secretary-General of the United Nations** — the second-highest post in the organisation — making her the highest-ranking Nigerian in UN history.
+In January 2017, UN Secretary-General António Guterres appointed her **Deputy Secretary-General of the United Nations**, the second-highest post in the organisation, making her the highest-ranking Nigerian in UN history.
 
 In that role, she has led the UN's work on the SDGs, the 2030 Agenda, gender equality, and the response to the COVID-19 pandemic's effects on development gains.
 
 ## Major Achievements
 
 - Chief architect of the **UN Sustainable Development Goals (SDGs)**, adopted by 193 countries in 2015
-- **UN Deputy Secretary-General** since January 2017 — the highest UN position ever held by a Nigerian
+- **UN Deputy Secretary-General** since January 2017, the highest UN position ever held by a Nigerian
 - Nigeria's **Federal Minister of Environment** (2015–2016)
 - Special Adviser to three successive UN Secretaries-General on development planning
 - Championed Nigeria's ratification of the **Paris Climate Agreement**
@@ -50,7 +50,7 @@ In that role, she has led the UN's work on the SDGs, the 2030 Agenda, gender equ
 
 ## Her Impact Today
 
-The Sustainable Development Goals shape how trillions of dollars in international development aid, investment, and government budgets are directed globally. Amina J. Mohammed's fingerprints are on that framework. As UN Deputy Secretary-General, she continues to be one of the most powerful voices in global governance — a Nigerian woman sitting at the very top of the world's most important international institution.
+The Sustainable Development Goals shape how trillions of dollars in international development aid, investment, and government budgets are directed globally. Amina J. Mohammed's fingerprints are on that framework. As UN Deputy Secretary-General, she continues to be one of the most powerful voices in global governance: a Nigerian woman sitting at the very top of the world's most important international institution.
 
 ---
 
