@@ -19,7 +19,7 @@ summary: "South African anti-apartheid activist who kept resistance alive inside
 
 ## Biography
 
-Nomzamo Winifred Zanyiwe Madikizela was born on 26 September 1936 in Mbizana, in the Eastern Cape of South Africa. She trained as a social worker — the first Black social worker at Baragwanath Hospital in Johannesburg — before her marriage to Nelson Mandela in 1958 changed the course of her life.
+Nomzamo Winifred Zanyiwe Madikizela was born on 26 September 1936 in Mbizana, in the Eastern Cape of South Africa. She trained as a social worker, the first Black social worker at Baragwanath Hospital in Johannesburg, before her marriage to Nelson Mandela in 1958 changed the course of her life.
 
 She is one of the most complex and contested figures in African history: a woman of immense courage who paid an almost unbearable price for her convictions, and whose legacy includes both extraordinary resistance and painful controversies.
 
@@ -33,9 +33,9 @@ When Nelson Mandela was imprisoned in 1964, the apartheid government assumed the
 
 Winnie Mandela refused to be silenced. For 27 years she kept the ANC's cause alive domestically — organising, speaking, resisting — while the government banned her, imprisoned her, and subjected her to years of solitary confinement and brutal interrogation.
 
-She was banished to the township of Brandfort in the Orange Free State — a place where few spoke her language — and still she organised. She turned her banishment house into a community clinic and a crèche. She returned to Soweto without permission.
+She was banished to the township of Brandfort in the Orange Free State, a place where few spoke her language, and still she organised. She turned her banishment house into a community clinic and a crèche. She returned to Soweto without permission.
 
-Her phrase **"with our boxes of matches and our necklaces, we shall liberate this country"** remains one of the most quoted — and most debated — statements in South African political history.
+Her phrase **"with our boxes of matches and our necklaces, we shall liberate this country"** remains one of the most quoted, and most debated, statements in South African political history.
 
 ## Major Achievements
 
@@ -47,9 +47,9 @@ Her phrase **"with our boxes of matches and our necklaces, we shall liberate thi
 
 ## Her Impact Today
 
-Winnie Madikizela-Mandela died on 2 April 2018. Her life cannot be reduced to a single narrative. She was a woman who endured systematic state terror and refused to break — and who carried wounds from that experience that shaped choices others would judge harshly.
+Winnie Madikizela-Mandela died on 2 April 2018. Her life cannot be reduced to a single narrative. She was a woman who endured systematic state terror and refused to break, and who carried wounds from that experience that shaped choices others would judge harshly.
 
-For millions of South Africans, she was and remains *Mama Winnie* — a figure who stayed when others left or were forced out, who bore witness to the worst of apartheid and kept fighting.
+For millions of South Africans, she was and remains *Mama Winnie*, a figure who stayed when others left or were forced out, who bore witness to the worst of apartheid and kept fighting.
 
 ---
 

@@ -19,7 +19,7 @@ summary: "Queen of Ndongo and Matamba who resisted Portuguese colonisation and t
 
 ## Biography
 
-Nzinga Mbande (also Njinga or Nzingha) was born around 1583 into the royal family of Ndongo, an Ambundu kingdom in what is now northern Angola. Her name is linked to the Kimbundu word *kujinga* ("to twist or turn") — legend says she was born with the umbilical cord around her neck. She was trained in politics and warfare and learned to read and write Portuguese from missionaries.
+Nzinga Mbande (also Njinga or Nzingha) was born around 1583 into the royal family of Ndongo, an Ambundu kingdom in what is now northern Angola. Her name is linked to the Kimbundu word *kujinga* ("to twist or turn"). Legend says she was born with the umbilical cord around her neck. She was trained in politics and warfare and learned to read and write Portuguese from missionaries.
 
 She became a central figure in Ndongo's dealings with the Portuguese. In 1622 she led a diplomatic mission to the Portuguese governor; accounts say she had a servant kneel as her chair to assert equal status. She became queen of Ndongo in 1624 after her brother's death and later ruled the kingdom of Matamba as well.
 

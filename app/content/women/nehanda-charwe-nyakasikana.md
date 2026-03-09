@@ -13,12 +13,12 @@ causes:
 image: "/women/nehanda-charwe-nyakasikana.jpg"
 imageCredit: "Wikimedia Commons / Public Domain"
 featured: false
-summary: "Zimbabwean spirit medium and revolutionary leader who commanded the First Chimurenga uprising against British colonisation. Her last words — 'my bones will rise' — became the rallying cry of Zimbabwe's independence movement 80 years later."
+summary: "Zimbabwean spirit medium and revolutionary leader who commanded the First Chimurenga uprising against British colonisation. Her last words, 'my bones will rise,' became the rallying cry of Zimbabwe's independence movement 80 years later."
 ---
 
 ## Biography
 
-Nehanda Charwe Nyakasikana, also known as Mbuya Nehanda, was born around 1840 in Chishawasha, Mashonaland, in the territory that is now Zimbabwe. She was a *svikiro* — a spirit medium — believed to be possessed by Nehanda, a powerful female ancestral spirit of the Shona people.
+Nehanda Charwe Nyakasikana, also known as Mbuya Nehanda, was born around 1840 in Chishawasha, Mashonaland, in the territory that is now Zimbabwe. She was a *svikiro*, a spirit medium believed to be possessed by Nehanda, a powerful female ancestral spirit of the Shona people.
 
 Among the Zezuru Shona, spirit mediums held enormous authority: they advised chiefs, settled disputes, and communicated the will of the ancestors. Nehanda was not a queen in the European sense. She was something more difficult to understand from the outside, and more dangerous from the inside: a woman through whom the ancestors spoke.
 
@@ -30,7 +30,7 @@ The administrator Henry Harwood Polling was particularly brutal in extracting ta
 
 ## What She Fought For
 
-In 1896–1897, Nehanda became one of the spiritual and military leaders of the **First Chimurenga** — the uprising of the Shona and Ndebele peoples against British colonial rule. She organised communities, provided spiritual authority to fighters, and is credited with directing the killing of Polling.
+In 1896–1897, Nehanda became one of the spiritual and military leaders of the **First Chimurenga**, the uprising of the Shona and Ndebele peoples against British colonial rule. She organised communities, provided spiritual authority to fighters, and is credited with directing the killing of Polling.
 
 She fought for the return of land, the expulsion of colonial forces, and the right of her people to govern themselves under their own law and tradition. The uprising was eventually suppressed by British forces with superior weapons.
 
@@ -43,7 +43,7 @@ Her reported last words were: **"My bones will rise again."**
 - Led one of the earliest armed resistance movements against British colonisation in southern Africa
 - Her spiritual authority united communities across Mashonaland in organised resistance
 - Became the defining symbol of Zimbabwean nationalist identity and liberation struggle
-- Her name and image became central to the **Second Chimurenga** — Zimbabwe's independence war of the 1970s
+- Her name and image became central to the **Second Chimurenga**, Zimbabwe's independence war of the 1970s
 
 ## Her Impact Today
 

@@ -21,7 +21,7 @@ summary: "Anti-apartheid leader who became the first woman elected to the ANC ex
 
 Lilian Masediba Ngoyi was born in 1911 in Pretoria, South Africa. She trained as a nurse and later worked as a machinist in a textile factory from 1945 to 1956. The harsh conditions and racial discrimination she saw at work pushed her into politics.
 
-She joined the African National Congress (ANC) in the early 1950s and quickly became one of its most visible and outspoken women. In 1956 she was elected to the ANC's National Executive Committee — **the first woman to hold that position**.
+She joined the African National Congress (ANC) in the early 1950s and quickly became one of its most visible and outspoken women. In 1956 she was elected to the ANC's National Executive Committee, **the first woman to hold that position**.
 
 ## Historical Context
 

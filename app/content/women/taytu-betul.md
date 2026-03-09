@@ -21,7 +21,7 @@ summary: "Empress of Ethiopia (1889–1913) who co-ruled with Menelik II. Key fi
 
 Taytu Betul was born around 1851 into the Ethiopian nobility. She was well educated and politically astute. She married Menelik II, then King of Shewa, who became Emperor of Ethiopia in 1889. As Empress (Itege), she was not a passive consort but a full partner in policy, diplomacy, and war.
 
-She played a central role in the lead-up to the **Battle of Adwa** (1 March 1896), in which Ethiopian forces defeated the Italian army — one of the few decisive African victories over a European colonial power in the 19th century. She is also credited with choosing the site and name of **Addis Ababa**, which became the capital.
+She played a central role in the lead-up to the **Battle of Adwa** (1 March 1896), in which Ethiopian forces defeated the Italian army, one of the few decisive African victories over a European colonial power in the 19th century. She is also credited with choosing the site and name of **Addis Ababa**, which became the capital.
 
 ## Historical Context
 

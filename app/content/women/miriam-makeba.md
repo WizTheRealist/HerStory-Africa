@@ -33,7 +33,7 @@ When Makeba left South Africa to attend the London premiere of *Come Back, Afric
 
 Makeba testified before the **United Nations Special Committee on Apartheid** in 1963, becoming one of the first artists to directly lobby the international community to impose sanctions on South Africa. Her testimony contributed to the arms embargo against the apartheid regime.
 
-She used every stage, every interview, every performance to speak about apartheid when much of the world was still doing business with Pretoria. Her marriage to Black Panther leader Stokely Carmichael in 1968 cost her American concert bookings and record deals — she bore that cost without apology.
+She used every stage, every interview, every performance to speak about apartheid when much of the world was still doing business with Pretoria. Her marriage to Black Panther leader Stokely Carmichael in 1968 cost her American concert bookings and record deals. She bore that cost without apology.
 
 She lived in exile in Guinea under President Sékou Touré, and later in Belgium and the United States. Wherever she went, she carried Africa with her.
 
@@ -44,11 +44,11 @@ She lived in exile in Guinea under President Sékou Touré, and later in Belgium
 - Ambassador to the UN for Guinea and Belize
 - UNESCO Goodwill Ambassador
 - Returned to South Africa in 1990 at Nelson Mandela's personal invitation
-- Performed until her death — she died on stage in Italy in 2008
+- Performed until her death: she died on stage in Italy in 2008
 
 ## Her Impact Today
 
-Miriam Makeba proved that culture is politics. Her songs — *Pata Pata*, *Malaika*, the *Click Song* — brought Africa to the world, but she never let the world forget what was happening to Africans. She died performing at a concert in solidarity with Italian writer Roberto Saviano, who had received death threats for exposing the Camorra.
+Miriam Makeba proved that culture is politics. Her songs (*Pata Pata*, *Malaika*, the *Click Song*) brought Africa to the world, but she never let the world forget what was happening to Africans. She died performing at a concert in solidarity with Italian writer Roberto Saviano, who had received death threats for exposing the Camorra.
 
 She died the way she lived: in the middle of a fight, still singing.
 

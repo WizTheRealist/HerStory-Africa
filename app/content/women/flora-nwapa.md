@@ -21,7 +21,7 @@ summary: "First African woman novelist published in Britain (Efuru, 1966). Found
 
 Flora Nwanzuruahu Nkiru Nwapa was born on 13 January 1931 in Oguta, in what is now Imo State, Nigeria. She studied at University College Ibadan and earned a Diploma in Education from the University of Edinburgh. She worked as a teacher and education officer before turning to writing and publishing.
 
-In 1966 her first novel, **Efuru**, was published by Heinemann — making her the **first African woman novelist to be published in English in Britain**. She went on to write novels, short stories, and children's books that centred Igbo women's lives and traditions.
+In 1966 her first novel, **Efuru**, was published by Heinemann, making her the **first African woman novelist to be published in English in Britain**. She went on to write novels, short stories, and children's books that centred Igbo women's lives and traditions.
 
 ## Historical Context
 
@@ -29,14 +29,14 @@ Nwapa wrote in the years around Nigerian independence and after the Biafran War 
 
 ## What She Fought For
 
-Flora Nwapa fought for **women's visibility in literature** and for **African control of African stories**. She did not call herself a feminist but portrayed Igbo women with complexity and respect. In 1974 she founded **Tana Press** in Nigeria — one of the first publishing houses run by an African woman — and later Flora Nwapa Company, to publish African writers and promote women in society.
+Flora Nwapa fought for **women's visibility in literature** and for **African control of African stories**. She did not call herself a feminist but portrayed Igbo women with complexity and respect. In 1974 she founded **Tana Press** in Nigeria, one of the first publishing houses run by an African woman, and later Flora Nwapa Company, to publish African writers and promote women in society.
 
 After the war she served as Commissioner for Health and Social Welfare in East Central State, working on reconstruction and with orphans and refugees. She held the chieftaincy title **Ogbuefi**, traditionally reserved for men.
 
 ## Major Achievements
 
 - First African woman novelist to be published in English in Britain (*Efuru*, 1966)
-- Founded **Tana Press** (1974) and Flora Nwapa Company — among the first African women-owned publishers
+- Founded **Tana Press** (1974) and Flora Nwapa Company, among the first African women-owned publishers
 - Commissioner for Health and Social Welfare, East Central State (post–Biafran War)
 - Author of *Efuru*, *Idu*, *Never Again*, *One Is Enough*, *Women Are Different*, and children's books
 - Honoured as "Mother of Modern African Literature"

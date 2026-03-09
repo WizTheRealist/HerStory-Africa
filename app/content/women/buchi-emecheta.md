@@ -25,7 +25,7 @@ She earned a degree in sociology from the University of London and wrote novels,
 
 ## Historical Context
 
-Emecheta wrote during the second half of the 20th century, when few Black women's voices were published in Britain. Her work explored the lives of Nigerian and African women — tradition, migration, racism, motherhood, and survival — with honesty and nuance. She was sometimes criticised for portraying difficult aspects of African and immigrant life, but she insisted on the right to tell women's stories as they were.
+Emecheta wrote during the second half of the 20th century, when few Black women's voices were published in Britain. Her work explored the lives of Nigerian and African women (tradition, migration, racism, motherhood, and survival) with honesty and nuance. She was sometimes criticised for portraying difficult aspects of African and immigrant life, but she insisted on the right to tell women's stories as they were.
 
 ## What She Fought For
 

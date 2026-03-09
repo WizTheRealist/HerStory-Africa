@@ -21,23 +21,23 @@ summary: "Harvard-trained economist who became Africa's first elected female hea
 
 Ellen Eugenia Johnson was born on 29 October 1938 in Monrovia, Liberia, to a Gola father and Kru-German mother. She attended the College of West Africa before being awarded a scholarship that took her to study in the United States.
 
-She earned an associate degree from Madison Business College, a bachelor's degree from the University of Colorado Boulder, and a **Master of Public Administration from Harvard University** — making her one of the most academically credentialed heads of state in African history.
+She earned an associate degree from Madison Business College, a bachelor's degree from the University of Colorado Boulder, and a **Master of Public Administration from Harvard University**, making her one of the most academically credentialed heads of state in African history.
 
 She returned to Liberia and began a career in government finance, eventually serving as Minister of Finance under President William Tolbert.
 
 ## Historical Context
 
-Liberia, Africa's oldest republic, spent the 1980s and 1990s in catastrophic violence. A 1980 military coup, followed by two civil wars between 1989 and 2003, killed over 250,000 people, destroyed infrastructure, and displaced a third of the population. Warlord Charles Taylor — later convicted of war crimes — looted the country for years.
+Liberia, Africa's oldest republic, spent the 1980s and 1990s in catastrophic violence. A 1980 military coup, followed by two civil wars between 1989 and 2003, killed over 250,000 people, destroyed infrastructure, and displaced a third of the population. Warlord Charles Taylor, later convicted of war crimes, looted the country for years.
 
 When peace was finally established in 2003, Liberia had almost no functioning institutions. Schools were rubble. Hospitals were stripped. The economy was at zero.
 
 ## What She Fought For
 
-Sirleaf had been imprisoned and exiled for opposing military rule in Liberia. She returned after the peace agreement and ran for president in the 2005 elections — narrowly losing in 1997, winning decisively in 2005 — becoming **Africa's first elected female head of state**.
+Sirleaf had been imprisoned and exiled for opposing military rule in Liberia. She returned after the peace agreement and ran for president, narrowly losing in 1997 before winning decisively in 2005 to become **Africa's first elected female head of state**.
 
 She inherited a country with no electricity in the capital, unpayable foreign debt, and 15,000 former child soldiers who needed reintegration. She negotiated debt relief, restored power to Monrovia, rebuilt the civil service, and established the Truth and Reconciliation Commission.
 
-Her collaboration with Leymah Gbowee during the peace process — women on both ends of the transition — is one of the defining stories of African women's leadership in the 21st century.
+Her collaboration with Leymah Gbowee during the peace process, women on both ends of the transition, is one of the defining stories of African women's leadership in the 21st century.
 
 ## Major Achievements
 
@@ -50,9 +50,9 @@ Her collaboration with Leymah Gbowee during the peace process — women on both 
 
 ## Her Impact Today
 
-Ellen Johnson Sirleaf stepped down after two terms — honouring Liberia's constitutional term limits when she could have sought an extension. That too was a statement.
+Ellen Johnson Sirleaf stepped down after two terms, honouring Liberia's constitutional term limits when she could have sought an extension. That too was a statement.
 
-She governed imperfectly, as all leaders do. But she governed — a country that most of the world had written off — and left it more stable, more educated, and more connected than she found it.
+She governed imperfectly, as all leaders do. But she governed a country that most of the world had written off, and left it more stable, more educated, and more connected than she found it.
 
 She is a living proof that African women belong at the highest levels of political leadership.
 

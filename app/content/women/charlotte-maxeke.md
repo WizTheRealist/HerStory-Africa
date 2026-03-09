@@ -14,14 +14,14 @@ causes:
 image: "/women/charlotte-maxeke.jpg"
 imageCredit: "Wikimedia Commons / Public Domain"
 featured: true
-summary: "First Black South African woman to earn a university degree. Founded the Bantu Women's League and fought pass laws — called the 'Mother of Black Freedom in South Africa'."
+summary: "First Black South African woman to earn a university degree. Founded the Bantu Women's League and fought pass laws. Called the 'Mother of Black Freedom in South Africa'."
 ---
 
 ## Biography
 
 Charlotte Makgomo Mannya Maxeke was born on 7 April 1871 in Ga-Ramokgopa in the Transvaal (today Limpopo Province, South Africa). She grew up in a period when colonial and missionary education offered a narrow path for Black women. She attended mission school and later toured Britain with the African Choir in the early 1890s, which helped fund her studies.
 
-In 1894 she travelled to the United States and enrolled at Wilberforce University in Ohio, a historically Black institution. In 1901 she graduated with a B.Sc. — becoming the **first Black South African woman to earn a university degree** and the first African woman to graduate from an American university.
+In 1894 she travelled to the United States and enrolled at Wilberforce University in Ohio, a historically Black institution. In 1901 she graduated with a B.Sc., becoming the **first Black South African woman to earn a university degree** and the first African woman to graduate from an American university.
 
 ## Historical Context
 

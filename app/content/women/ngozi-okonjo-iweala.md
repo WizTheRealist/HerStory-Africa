@@ -21,7 +21,7 @@ summary: "Nigerian-American economist who became the first woman and first Afric
 
 Ngozi Okonjo-Iweala was born on 13 June 1954 in Nigeria. She studied economics at Harvard and earned a PhD in regional economics and development from the Massachusetts Institute of Technology. She spent 25 years at the World Bank, rising to Managing Director (2007–2011) with responsibility for operations in Africa, South Asia, Europe, and Central Asia.
 
-She served twice as Nigeria's **Minister of Finance** (2003–2006 and 2011–2015) and briefly as **Foreign Minister** in 2006 — the first woman to hold either post. In March 2021 she became **Director-General of the World Trade Organization (WTO)** — the first woman and first African to lead the WTO.
+She served twice as Nigeria's **Minister of Finance** (2003–2006 and 2011–2015) and briefly as **Foreign Minister** in 2006, the first woman to hold either post. In March 2021 she became **Director-General of the World Trade Organization (WTO)**, the first woman and first African to lead the WTO.
 
 ## Historical Context
 

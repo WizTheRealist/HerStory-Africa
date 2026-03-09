@@ -21,19 +21,19 @@ summary: "Kenyan environmentalist and democracy activist who founded the Green B
 
 Wangarĩ Muta Maathai was born on 1 April 1940 in Ihithe, Tetu District, Kenya. The daughter of a farmer, she grew up in the Kenyan highlands at a time when colonial rule was reshaping the land and its people.
 
-She was a beneficiary of the Kennedy Airlift — a programme that brought African students to study in the United States — earning a biology degree in Kansas and a master's degree from the University of Pittsburgh. She returned to Kenya and became the first woman in East and Central Africa to earn a PhD, awarded by the University of Nairobi in 1971.
+She was a beneficiary of the Kennedy Airlift, a programme that brought African students to study in the United States, earning a biology degree in Kansas and a master's degree from the University of Pittsburgh. She returned to Kenya and became the first woman in East and Central Africa to earn a PhD, awarded by the University of Nairobi in 1971.
 
 ## Historical Context
 
-Maathai came of age in post-independence Kenya, a country gaining sovereignty but losing its forests to commercial farming and logging. Rural women — who depended on firewood, clean water, and fertile land — were hit hardest. At the same time, President Daniel arap Moi's government was moving toward authoritarian rule, silencing dissent and handing public land to political allies.
+Maathai came of age in post-independence Kenya, a country gaining sovereignty but losing its forests to commercial farming and logging. Rural women, who depended on firewood, clean water, and fertile land, were hit hardest. At the same time, President Daniel arap Moi's government was moving toward authoritarian rule, silencing dissent and handing public land to political allies.
 
 Maathai saw the connections clearly: environmental destruction was a political problem, and women bore the cost.
 
 ## What She Fought For
 
-In 1977, Maathai founded the **Green Belt Movement** — starting by planting seven trees in her backyard on World Environment Day. The movement trained rural women to plant trees, restore watersheds, and earn income doing it. By her death, over **51 million trees** had been planted across Kenya and beyond.
+In 1977, Maathai founded the **Green Belt Movement**, starting by planting seven trees in her backyard on World Environment Day. The movement trained rural women to plant trees, restore watersheds, and earn income doing it. By her death, over **51 million trees** had been planted across Kenya and beyond.
 
-But the Green Belt Movement was never only about trees. Maathai linked environmental degradation to corruption, dictatorship, and the disempowerment of women. She was arrested, beaten, and jailed for her activism multiple times. When Moi's government tried to build a 62-storey tower in Uhuru Park — Nairobi's largest green space — she led the protest that stopped it.
+But the Green Belt Movement was never only about trees. Maathai linked environmental degradation to corruption, dictatorship, and the disempowerment of women. She was arrested, beaten, and jailed for her activism multiple times. When Moi's government tried to build a 62-storey tower in Uhuru Park, Nairobi's largest green space, she led the protest that stopped it.
 
 She also fought for the rights of political prisoners and for multiparty democracy in Kenya when both were dangerous positions to hold.
 

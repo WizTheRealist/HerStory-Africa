@@ -25,7 +25,7 @@ She wrote in French. Her first novel, **Une si longue lettre** (*So Long a Lette
 
 ## Historical Context
 
-Senegal gained independence from France in 1960. Formal education and literary culture were still largely male-dominated. Mariama Bâ wrote at a time when African women’s voices were only beginning to be published and read widely. She addressed themes — marriage, polygamy, religion, tradition, and women’s dignity — that resonated across the continent and beyond.
+Senegal gained independence from France in 1960. Formal education and literary culture were still largely male-dominated. Mariama Bâ wrote at a time when African women’s voices were only beginning to be published and read widely. She addressed themes (marriage, polygamy, religion, tradition, and women’s dignity) that resonated across the continent and beyond.
 
 ## What She Fought For
 
@@ -33,7 +33,7 @@ Mariama Bâ fought for **women’s right to speak and be heard** and for **educa
 
 ## Major Achievements
 
-- Author of *Une si longue lettre* (*So Long a Letter*, 1979) — Noma Award, translated worldwide
+- Author of *Une si longue lettre* (*So Long a Letter*, 1979), winner of the Noma Award, translated worldwide
 - Author of *Un chant écarlate* (*Scarlet Song*, 1981)
 - Teacher and advocate for women’s and girls’ education
 - One of the most influential Francophone African women writers of the 20th century

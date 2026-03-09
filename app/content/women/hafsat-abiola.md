@@ -25,7 +25,7 @@ Her parents’ struggle defined her youth: her father won the 12 June 1993 presi
 
 ## Historical Context
 
-Nigeria’s pro-democracy movement of the 1990s demanded an end to military rule and recognition of the annulled 1993 election. Hafsat Abiola lost both parents to that struggle — her father died in detention in 1998 — and chose to continue the work through civil society, women’s empowerment, and democracy-building rather than through partisan politics alone.
+Nigeria’s pro-democracy movement of the 1990s demanded an end to military rule and recognition of the annulled 1993 election. Hafsat Abiola lost both parents to that struggle (her father died in detention in 1998) and chose to continue the work through civil society, women’s empowerment, and democracy-building rather than through partisan politics alone.
 
 ## What She Fought For
 
