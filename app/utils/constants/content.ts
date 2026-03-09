@@ -3,6 +3,7 @@ export const REGIONS = [
   'East Africa',
   'Southern Africa',
   'Central Africa',
+  'North Africa',
 ] as const
 
 export const ERAS = [
@@ -10,6 +11,7 @@ export const ERAS = [
   'Colonial',
   'Independence',
   'Modern',
+  'Contemporary',
 ] as const
 
 export const CAUSES = [

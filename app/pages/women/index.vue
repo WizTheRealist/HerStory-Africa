@@ -72,7 +72,7 @@ const searchQuery = ref((route.query.q as string) ?? '')
 const activeRegion = ref((route.query.region as string) ?? '')
 const activeEra = ref((route.query.era as string) ?? '')
 const activeCause = ref((route.query.cause as string) ?? '')
-const currentPage = ref(1)
+const currentPage = ref(Number(route.query.page) || 1)
 
 const { data: allWomen } = await useAsyncData('all-women', () =>
   queryCollection('women').order('name', 'ASC').all(),
@@ -101,15 +101,22 @@ const paginatedWomen = computed(() => {
   return filteredWomen.value.slice(start, start + PER_PAGE)
 })
 
-watch([searchQuery, activeRegion, activeEra, activeCause], () => {
-  currentPage.value = 1
+function syncUrl() {
   const query: Record<string, string> = {}
   if (searchQuery.value) query.q = searchQuery.value
   if (activeRegion.value) query.region = activeRegion.value
   if (activeEra.value) query.era = activeEra.value
   if (activeCause.value) query.cause = activeCause.value
+  if (currentPage.value > 1) query.page = String(currentPage.value)
   router.replace({ query })
+}
+
+watch([searchQuery, activeRegion, activeEra, activeCause], () => {
+  currentPage.value = 1
+  syncUrl()
 })
+
+watch(currentPage, syncUrl)
 
 function clearFilters() {
   searchQuery.value = ''

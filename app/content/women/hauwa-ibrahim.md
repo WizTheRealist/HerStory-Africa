@@ -4,6 +4,7 @@ slug: "hauwa-ibrahim"
 country: "Nigeria"
 region: "West Africa"
 born: 1967
+died: null
 era: "Contemporary"
 causes:
   - "Human rights"

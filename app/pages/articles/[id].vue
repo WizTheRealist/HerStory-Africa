@@ -55,6 +55,7 @@ useSeoMeta({
   description: () => article.value?.description ?? "",
   ogTitle: () => article.value?.title ?? "",
   ogDescription: () => article.value?.description ?? "",
+  ogImage: "/og-image.png",
 });
 </script>
 

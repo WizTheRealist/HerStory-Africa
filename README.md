@@ -13,7 +13,7 @@ A fast, static, searchable digital archive and learning platform. No fluff. No p
 Users can:
 
 - Search for specific historical figures by name, country, or cause
-- Browse women by region (West, East, Southern, Central Africa)
+- Browse women by region (West, East, Southern, Central, North Africa)
 - Filter by era (Pre-Colonial, Colonial, Independence, Modern)
 - Explore a timeline teaser of key moments in African women's history
 - Read educational articles providing context for younger audiences
@@ -80,7 +80,6 @@ herstory-africa/
 │   ├── utils/
 │   │   ├── constants/content.ts    # Regions, eras, causes
 │   │   ├── types/content.ts        # TypeScript interfaces
-│   │   ├── goBack.ts               # Smart back navigation
 │   │   └── scrollToTop.ts          # Smooth scroll utility
 │   ├── app.vue
 │   └── error.vue                   # Branded error page (404/500)
@@ -134,8 +133,8 @@ summary: "Nigerian activist who led the Abeokuta Women's Union..."
 
 Valid values for key fields:
 
-- **region**: West Africa, East Africa, Southern Africa, Central Africa
-- **era**: Pre-Colonial, Colonial, Independence, Modern
+- **region**: West Africa, East Africa, Southern Africa, Central Africa, North Africa
+- **era**: Pre-Colonial, Colonial, Independence, Modern, Contemporary
 - **causes**: See `app/utils/constants/content.ts` for the full list
 
 ---

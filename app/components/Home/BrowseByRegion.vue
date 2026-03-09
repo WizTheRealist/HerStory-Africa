@@ -30,6 +30,8 @@ const regionMeta = [
   { name: 'West Africa', accent: 'var(--color-primary)' },
   { name: 'East Africa', accent: 'var(--color-forest)' },
   { name: 'Southern Africa', accent: 'var(--color-secondary)' },
+  { name: 'Central Africa', accent: 'var(--color-crimson)' },
+  { name: 'North Africa', accent: 'var(--color-forest)' },
 ] as const
 
 const { data: counts } = await useAsyncData('region-counts', async () => {
@@ -59,6 +61,12 @@ const regionData = computed(() =>
 @media (min-width: 640px) {
   .regions__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .regions__grid {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 

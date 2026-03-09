@@ -5,7 +5,7 @@ country: "Nigeria"
 region: "West Africa"
 born: 1460
 died: 1520
-era: "Pre-colonial"
+era: "Pre-Colonial"
 causes:
   - "Political power"
   - "Women's sovereignty"

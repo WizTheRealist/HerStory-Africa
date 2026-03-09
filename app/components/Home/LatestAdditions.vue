@@ -2,7 +2,7 @@
   <section class="section latest">
     <div class="section__header">
       <h2 class="section__title">Latest Additions</h2>
-      <p class="section__subtitle">Recently added to the archive</p>
+      <p class="section__subtitle">Profiles from the archive</p>
     </div>
 
     <div v-if="women?.length" class="latest__women">

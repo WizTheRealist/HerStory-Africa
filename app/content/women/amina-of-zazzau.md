@@ -5,7 +5,7 @@ country: "Nigeria"
 region: "West Africa"
 born: 1533
 died: 1610
-era: "Pre-colonial"
+era: "Pre-Colonial"
 causes:
   - "Military leadership"
   - "Political power"

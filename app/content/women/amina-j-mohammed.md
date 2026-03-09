@@ -4,6 +4,7 @@ slug: "amina-j-mohammed"
 country: "Nigeria"
 region: "West Africa"
 born: 1961
+died: null
 era: "Contemporary"
 causes:
   - "Sustainable development"

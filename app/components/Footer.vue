@@ -37,6 +37,18 @@
           >
             Southern Africa
           </NuxtLink>
+          <NuxtLink
+            :to="{ path: '/women', query: { region: 'Central Africa' } }"
+            class="site-footer__link"
+          >
+            Central Africa
+          </NuxtLink>
+          <NuxtLink
+            :to="{ path: '/women', query: { region: 'North Africa' } }"
+            class="site-footer__link"
+          >
+            North Africa
+          </NuxtLink>
         </div>
       </div>
 

@@ -6,6 +6,7 @@
       :value="modelValue"
       type="text"
       :placeholder="placeholder"
+      :aria-label="placeholder"
       class="search-bar__input"
       @input="
         $emit('update:modelValue', ($event.target as HTMLInputElement).value)
@@ -85,6 +86,10 @@ defineExpose({ focus: () => inputRef.value?.focus() });
   font-size: 1rem;
   color: var(--text-primary);
   background: transparent;
+}
+
+.search-bar__input:focus-visible {
+  outline: none;
 }
 
 .search-bar__input::placeholder {

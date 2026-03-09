@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 const { data: articles } = await useAsyncData("latest-articles", () =>
-  queryCollection("articles").limit(5).all(),
+  queryCollection("articles").order("date", "DESC").limit(5).all(),
 );
 </script>
 

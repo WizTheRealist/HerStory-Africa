@@ -4,6 +4,7 @@ slug: "tegla-loroupe"
 country: "Kenya"
 region: "East Africa"
 born: 1973
+died: null
 era: "Contemporary"
 causes:
   - "Peace"

@@ -4,6 +4,7 @@ slug: "obiageli-ezekwesili"
 country: "Nigeria"
 region: "West Africa"
 born: 1963
+died: null
 era: "Contemporary"
 causes:
   - "Education"

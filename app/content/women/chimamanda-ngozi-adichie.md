@@ -4,6 +4,7 @@ slug: "chimamanda-ngozi-adichie"
 country: "Nigeria"
 region: "West Africa"
 born: 1977
+died: null
 era: "Contemporary"
 causes:
   - "Feminism"

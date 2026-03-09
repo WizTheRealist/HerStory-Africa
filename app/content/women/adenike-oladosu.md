@@ -4,6 +4,7 @@ slug: "adenike-oladosu"
 country: "Nigeria"
 region: "West Africa"
 born: 1994
+died: null
 era: "Contemporary"
 causes:
   - "Climate justice"

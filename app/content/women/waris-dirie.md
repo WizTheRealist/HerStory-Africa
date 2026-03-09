@@ -4,6 +4,7 @@ slug: "waris-dirie"
 country: "Somalia"
 region: "East Africa"
 born: 1965
+died: null
 era: "Contemporary"
 causes:
   - "Anti-FGM"
