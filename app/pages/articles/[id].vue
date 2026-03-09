@@ -81,7 +81,7 @@ useSeoMeta({
   description: () => article.value?.description ?? "",
   ogTitle: () => article.value?.title ?? "",
   ogDescription: () => article.value?.description ?? "",
-  ogImage: "/og-image.png",
+  ogImage: "https://her-story-africa-seven.vercel.app/og-image.png",
 });
 </script>
 

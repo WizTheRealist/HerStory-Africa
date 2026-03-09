@@ -18,6 +18,5 @@ useSeoMeta({
     "An educational archive of African women who fought for equality, rights, and social change across history.",
   ogDescription:
     "An educational archive of African women who fought for equality, rights, and social change across history.",
-  ogImage: "/og-image.png",
 });
 </script>

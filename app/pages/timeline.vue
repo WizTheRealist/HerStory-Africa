@@ -96,7 +96,7 @@ useSeoMeta({
   ogTitle: 'Timeline — HerStory Africa',
   ogDescription:
     'Explore the full timeline of African women who fought for equality across the centuries.',
-  ogImage: '/og-image.png',
+  ogImage: 'https://her-story-africa-seven.vercel.app/og-image.png',
 })
 </script>
 

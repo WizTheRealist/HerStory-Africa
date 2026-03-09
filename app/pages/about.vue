@@ -142,7 +142,7 @@ useSeoMeta({
   ogTitle: "About HerStory Africa",
   ogDescription:
     "Why HerStory Africa exists: correcting misconceptions about feminism through real history.",
-  ogImage: "/og-image.png",
+  ogImage: "https://her-story-africa-seven.vercel.app/og-image.png",
 });
 </script>
 
