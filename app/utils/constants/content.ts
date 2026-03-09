@@ -54,6 +54,13 @@ export const CAUSES = [
   'Women\'s suffrage',
 ] as const
 
+export const ARTICLE_CATEGORIES = [
+  'History',
+  'Concepts',
+  'Why It Matters',
+] as const
+
 export type Region = typeof REGIONS[number]
 export type Era = typeof ERAS[number]
 export type Cause = typeof CAUSES[number]
+export type ArticleCategory = typeof ARTICLE_CATEGORIES[number]

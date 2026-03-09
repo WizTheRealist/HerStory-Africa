@@ -5,9 +5,12 @@
     </div>
 
     <div class="article-card__body">
-      <time class="article-card__date" :datetime="date">
-        {{ formattedDate }}
-      </time>
+      <div class="article-card__meta">
+        <span v-if="category" class="article-card__category">{{ category }}</span>
+        <time class="article-card__date" :datetime="date">
+          {{ formattedDate }}
+        </time>
+      </div>
       <h3 class="article-card__title">{{ title }}</h3>
       <p class="article-card__description">{{ description }}</p>
     </div>
@@ -22,6 +25,7 @@ const props = defineProps<{
   description: string
   date: string
   slug: string
+  category?: string
 }>()
 
 const formattedDate = computed(() => {
@@ -74,6 +78,22 @@ const formattedDate = computed(() => {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+}
+
+.article-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.article-card__category {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  background: var(--color-primary-50);
+  color: var(--color-primary);
+  white-space: nowrap;
 }
 
 .article-card__date {

@@ -12,6 +12,7 @@
         :description="article.description"
         :date="article.date"
         :slug="article.slug"
+        :category="article.category"
       />
     </div>
   </section>

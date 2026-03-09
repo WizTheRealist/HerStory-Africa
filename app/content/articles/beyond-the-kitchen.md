@@ -3,6 +3,7 @@ title: "Beyond the Kitchen: How African Women Have Always Been Leaders, Warriors
 description: "Challenging the myth that African women were historically confined to domestic roles by exploring centuries of women who ruled, fought, traded, and shaped the continent."
 date: 2026-03-08
 slug: beyond-the-kitchen
+category: "History"
 ---
 
 If you ask most people to name great African leaders from history, the names that come up are almost always men. Kings, warriors, freedom fighters. But the truth is that African women have always been leaders, warriors, diplomats, and builders. Their stories were not absent from history. They were removed from it, deliberately or carelessly, and it is time to put them back.

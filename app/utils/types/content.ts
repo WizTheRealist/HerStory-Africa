@@ -19,5 +19,6 @@ export interface Article {
   description: string
   date: string
   slug: string
+  category: string
   path?: string
 }

@@ -3,6 +3,7 @@ title: "What Is Patriarchy and How Does It Show Up in Everyday Life?"
 description: "A clear and simple explanation of what patriarchy means, how it works, and how young people can learn to recognise it in the world around them."
 date: 2026-03-08
 slug: what-is-patriarchy
+category: "Concepts"
 ---
 
 You have probably heard the word "patriarchy" before. Maybe in a conversation, in a social media debate, or in a classroom. It can feel like a big, academic word that does not connect to real life. But patriarchy is not abstract. It is one of the most practical things you can learn to recognise because it shapes almost everything around you.

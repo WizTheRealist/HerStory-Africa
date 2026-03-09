@@ -3,6 +3,7 @@ title: "Why Representation Matters: What Happens When Girls See Women Who Look L
 description: "How seeing women in positions of power changes what girls believe is possible, and why African women's visibility in leadership matters for the next generation."
 date: 2026-03-08
 slug: why-representation-matters
+category: "Why It Matters"
 ---
 
 When [Ellen Johnson Sirleaf](/women/ellen-johnson-sirleaf) became Africa's first elected female head of state in 2006, something shifted. Not just in Liberia, but across the continent. Girls in classrooms, women in markets, and young professionals in offices saw something they had never seen before: a woman who looked like them running an entire country.

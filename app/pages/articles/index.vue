@@ -1,11 +1,25 @@
 <template>
   <div class="articles-listing">
     <header class="articles-listing__header">
-      <h1 class="articles-listing__title">Articles &amp; Explainers</h1>
+      <h1 class="articles-listing__title">Articles & Explainers</h1>
       <p class="articles-listing__subtitle">
-        Context, analysis, and the bigger picture behind the stories.
+        {{ totalCount }} articles. Context, analysis, and the bigger picture.
       </p>
     </header>
+
+    <div class="articles-listing__toolbar">
+      <SearchBar
+        v-model="searchQuery"
+        placeholder="Search articles…"
+        class="articles-listing__search"
+        @submit="currentPage = 1"
+      />
+      <FilterBy
+        v-model="activeCategory"
+        label="Category"
+        :options="[...ARTICLE_CATEGORIES]"
+      />
+    </div>
 
     <div v-if="paginatedArticles.length" class="articles-listing__list">
       <ArticleCard
@@ -15,12 +29,16 @@
         :description="article.description"
         :date="article.date"
         :slug="article.slug"
+        :category="article.category"
       />
     </div>
 
     <div v-else class="articles-listing__empty">
-      <LucideBookOpen :size="40" />
-      <p>No articles yet. Check back soon.</p>
+      <LucideSearchX :size="40" />
+      <p>No articles match your current filters.</p>
+      <button class="articles-listing__clear-btn" @click="clearFilters">
+        Clear all filters
+      </button>
     </div>
 
     <Pagination v-model="currentPage" :total-pages="totalPages" />
@@ -28,28 +46,66 @@
 </template>
 
 <script setup lang="ts">
-const PER_PAGE = 10;
-const currentPage = ref(1);
+import { ARTICLE_CATEGORIES } from '~/utils/constants/content'
 
-const { data: allArticles } = await useAsyncData("all-articles", () =>
-  queryCollection("articles").order("date", "DESC").all(),
-);
+const route = useRoute()
+const router = useRouter()
 
-const totalPages = computed(() =>
-  Math.ceil((allArticles.value?.length ?? 0) / PER_PAGE),
-);
+const PER_PAGE = 10
+const searchQuery = ref((route.query.q as string) ?? '')
+const activeCategory = ref((route.query.category as string) ?? '')
+const currentPage = ref(Number(route.query.page) || 1)
+
+const { data: allArticles } = await useAsyncData('all-articles', () =>
+  queryCollection('articles').order('date', 'DESC').all(),
+)
+
+const filteredArticles = computed(() => {
+  if (!allArticles.value) return []
+
+  return allArticles.value.filter((a) => {
+    const q = searchQuery.value.toLowerCase().trim()
+    if (q && !a.title.toLowerCase().includes(q) && !a.description.toLowerCase().includes(q)) {
+      return false
+    }
+    if (activeCategory.value && a.category !== activeCategory.value) return false
+    return true
+  })
+})
+
+const totalCount = computed(() => allArticles.value?.length ?? 0)
+const totalPages = computed(() => Math.ceil(filteredArticles.value.length / PER_PAGE))
 
 const paginatedArticles = computed(() => {
-  if (!allArticles.value) return [];
-  const start = (currentPage.value - 1) * PER_PAGE;
-  return allArticles.value.slice(start, start + PER_PAGE);
-});
+  const start = (currentPage.value - 1) * PER_PAGE
+  return filteredArticles.value.slice(start, start + PER_PAGE)
+})
+
+watch([searchQuery, activeCategory], () => {
+  currentPage.value = 1
+  const query: Record<string, string> = {}
+  if (searchQuery.value) query.q = searchQuery.value
+  if (activeCategory.value) query.category = activeCategory.value
+  router.replace({ query })
+})
+
+watch(currentPage, (page) => {
+  const query: Record<string, string> = {}
+  if (searchQuery.value) query.q = searchQuery.value
+  if (activeCategory.value) query.category = activeCategory.value
+  if (page > 1) query.page = String(page)
+  router.replace({ query })
+})
+
+function clearFilters() {
+  searchQuery.value = ''
+  activeCategory.value = ''
+}
 
 useSeoMeta({
-  title: "Articles & Explainers",
-  description:
-    "Context, analysis, and the bigger picture behind the stories of African women who shaped history.",
-});
+  title: 'Articles & Explainers',
+  description: 'Context, analysis, and the bigger picture behind the stories of African women who shaped history.',
+})
 </script>
 
 <style scoped>
@@ -82,6 +138,17 @@ useSeoMeta({
   margin: 0.375rem 0 0;
 }
 
+.articles-listing__toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.articles-listing__search {
+  max-width: 100%;
+}
+
 .articles-listing__list {
   display: flex;
   flex-direction: column;
@@ -101,5 +168,22 @@ useSeoMeta({
 .articles-listing__empty p {
   margin: 0;
   font-size: 1rem;
+}
+
+.articles-listing__clear-btn {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  border-radius: 9999px;
+  border: 1.5px solid var(--border-default);
+  background: var(--surface-elevated);
+  color: var(--text-secondary);
+  transition: all 0.15s ease;
+}
+
+.articles-listing__clear-btn:hover {
+  border-color: var(--ring-default);
+  color: var(--color-primary);
 }
 </style>

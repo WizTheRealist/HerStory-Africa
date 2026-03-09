@@ -3,6 +3,7 @@ title: "The Aba Women's War: When Nigerian Women Took On the British Empire"
 description: "The story of how thousands of women in southeastern Nigeria organised one of the largest anti-colonial uprisings in African history in 1929."
 date: 2026-03-08
 slug: the-aba-womens-war
+category: "History"
 ---
 
 In November 1929, thousands of women in southeastern Nigeria rose up against the British colonial government. They did not use weapons. They used their voices, their bodies, and their collective power. What followed was one of the largest and most significant women-led revolts in modern African history. The British called it the "Aba Women's Riots." The women who lived it called it Ogu Umunwaanyi, meaning "the Women's War."

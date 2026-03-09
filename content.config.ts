@@ -39,6 +39,7 @@ export default defineContentConfig({
         description: z.string(),
         date: z.string(),
         slug: z.string(),
+        category: z.string(),
       }),
     }),
   },

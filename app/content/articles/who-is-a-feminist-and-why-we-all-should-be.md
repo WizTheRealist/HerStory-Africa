@@ -3,6 +3,7 @@ title: "Who Is a Feminist and Why We All Should Be"
 description: "A simple, honest breakdown of what it means to be a feminist, why it matters for everyone, and how African women have been leading the way for generations."
 date: 2026-03-08
 slug: who-is-a-feminist-and-why-we-all-should-be
+category: "Concepts"
 ---
 
 Imagine a world where your sister is told she cannot go to school because she is a girl. Or where your mother works just as hard as your father but gets paid less for the same job. Or where a girl in your class has a brilliant idea but nobody listens because "girls should be quiet." If any of that sounds unfair to you, congratulations. You already think like a feminist.

@@ -3,6 +3,7 @@ title: "Feminism Is About Equality, Not Hating Men"
 description: "Why the idea that feminism means hating men is a misunderstanding, and why the history of African women's movements matters."
 date: 2025-03-08
 slug: feminism-equality-not-anti-men
+category: "Concepts"
 ---
 
 It's common to hear women say things like: "I'm not a feminist, I like men," or "I'm not a feminist, the men around me are nice." The underlying assumption is that feminism is about disliking men or rejecting romantic relationships. But that's not what feminism is.
