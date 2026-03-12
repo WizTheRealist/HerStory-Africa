@@ -11,7 +11,7 @@ causes:
   - "Women's rights"
   - "Education"
   - "Representation"
-image: "/women/folake-solanke.jpg"
+image: "/women/placeholder.svg"
 imageCredit: "Image needed"
 featured: false
 summary: "Nigerian lawyer; first female Senior Advocate of Nigeria (SAN). Pioneer for women in the legal profession; advocate for education and women's advancement."

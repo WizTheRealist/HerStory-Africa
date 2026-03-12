@@ -11,7 +11,7 @@ causes:
   - "Pharmaceuticals"
   - "Women in business"
   - "Entrepreneurship"
-image: "/women/stella-okoli.jpg"
+image: "/women/placeholder.svg"
 imageCredit: "Image needed"
 featured: false
 summary: "Nigerian pharmacist and entrepreneur; founder of Emzor Pharmaceutical Industries. Pioneer in Nigerian pharmaceutical manufacturing; advocate for quality healthcare and women in business."

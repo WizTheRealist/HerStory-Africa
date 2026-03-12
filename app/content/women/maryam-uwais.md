@@ -11,7 +11,7 @@ causes:
   - "Social justice"
   - "Legal reform"
   - "Women's leadership"
-image: "/women/maryam-uwais.jpg"
+image: "/women/placeholder.svg"
 imageCredit: "Image needed"
 featured: false
 summary: "Nigerian lawyer and advocate; Special Adviser to the President on Social Investments. Leading voice for children's rights, legal reform, and social protection in Nigeria."

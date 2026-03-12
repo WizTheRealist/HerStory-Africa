@@ -11,7 +11,7 @@ causes:
   - "Public health"
   - "Medical heroism"
   - "Women in science"
-image: "/women/ameyo-stella-adadevoh.jpg"
+image: "/women/placeholder.svg"
 imageCredit: "Image needed"
 featured: false
 summary: "Nigerian physician who identified and contained Nigeria's first Ebola case in 2014, preventing a wider outbreak. She died of the disease; honoured as a national hero."

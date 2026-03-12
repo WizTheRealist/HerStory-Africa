@@ -11,7 +11,7 @@ causes:
   - "Women's visibility"
   - "Athletics"
   - "Representation"
-image: "/women/chioma-ajunwa-opara.jpg"
+image: "/women/placeholder.svg"
 imageCredit: "Image needed"
 featured: false
 summary: "Nigerian athlete and police officer; first Nigerian and first black African woman to win Olympic gold in athletics (long jump, Atlanta 1996). Pioneer for African women in sport."

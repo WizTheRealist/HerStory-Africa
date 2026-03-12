@@ -12,7 +12,7 @@ causes:
   - "Finance"
   - "Governance"
 image: "/women/kemi-adeosun.jpg"
-imageCredit: "Image needed"
+imageCredit: "Ainakhu / Wikimedia Commons / CC BY-SA 4.0"
 featured: false
 summary: "Nigerian accountant and former Minister of Finance. First female Minister of Finance in Nigeria's recent history; advocate for fiscal reform and women in finance."
 ---

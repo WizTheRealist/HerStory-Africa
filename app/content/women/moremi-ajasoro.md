@@ -11,7 +11,7 @@ causes:
   - "Women's courage"
   - "Yoruba heritage"
 image: "/women/moremi-ajasoro.jpg"
-imageCredit: "Wikimedia Commons / Public Domain"
+imageCredit: "Eukoha / Wikimedia Commons / CC BY-SA 4.0"
 featured: true
 summary: "Legendary Yoruba queen from the ancient city of Ile-Ife who sacrificed everything, including her only son, to save her people from capture and suffering. She is one of the most celebrated heroines in Yoruba history and her story has been told for almost a thousand years."
 ---
