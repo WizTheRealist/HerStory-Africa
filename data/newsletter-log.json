@@ -1,3 +1,15 @@
 {
-  "editions": []
+  "editions": [
+    {
+      "date": "2026-03-12",
+      "type": "woman",
+      "mainFeature": "margaret-ekpo",
+      "alsoRead": [
+        "why-economic-independence-changes-everything",
+        "a-conversation-with-my-father"
+      ],
+      "region": "West Africa",
+      "subject": "Meet the woman who organised Nigeria's women for independence"
+    }
+  ]
 }
