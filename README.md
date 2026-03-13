@@ -4,6 +4,8 @@
 
 HerStory Africa is an open-source educational archive documenting African women who fought for equality, rights, and social change across history. Built for students, teenagers, and young adults who want to understand the real, full story of African history — told through the women who shaped it.
 
+Currently featuring **137 women** and **24 articles**.
+
 ---
 
 ## What It Is
@@ -12,27 +14,31 @@ A fast, static, searchable digital archive and learning platform. No fluff. No p
 
 Users can:
 
-- Search for specific historical figures by name, country, or cause
+- Search for historical figures by name, country, or cause
 - Browse women by region (West, East, Southern, Central, North Africa)
-- Filter by era (Pre-Colonial, Colonial, Independence, Modern)
-- Explore a timeline teaser of key moments in African women's history
+- Filter by era (Pre-Colonial, Colonial, Independence, Modern, Contemporary)
+- Explore an interactive timeline of key moments in African women's history
 - Read educational articles providing context for younger audiences
+- Listen to any profile or article with built-in text-to-speech (voice selection, speed control, seekable progress)
+- Save favourites and track reading progress (persisted locally)
+- Subscribe to the newsletter
 - Toggle between light and dark mode
 
 ---
 
 ## Tech Stack
 
-| Tool                                       | Purpose                              |
-| ------------------------------------------ | ------------------------------------ |
-| [Nuxt 4](https://nuxt.com)                | Framework (Vue 3, file-based routing)|
-| [Nuxt Content v3](https://content.nuxt.com)| Markdown-based content layer         |
-| [@nuxt/image](https://image.nuxt.com)     | Optimised image handling             |
-| [Tailwind CSS v4](https://tailwindcss.com) | Utility-first CSS + custom tokens    |
-| [Lucide Icons](https://lucide.dev)         | Icon library                         |
-| [VueUse](https://vueuse.org)              | Composables (dark mode, focus trap)  |
-| [@nuxtjs/sitemap](https://sitemap.nuxt.com)| Auto-generated sitemap              |
-| [Vercel](https://vercel.com)              | Hosting & deployment                 |
+| Tool                                        | Purpose                               |
+| ------------------------------------------- | ------------------------------------- |
+| [Nuxt 4](https://nuxt.com)                 | Framework (Vue 3, file-based routing) |
+| [Nuxt Content v3](https://content.nuxt.com) | Markdown-based content layer          |
+| [@nuxt/image](https://image.nuxt.com)      | Optimised image handling              |
+| [Tailwind CSS v4](https://tailwindcss.com)  | Utility-first CSS + custom tokens     |
+| [Pinia](https://pinia.vuejs.org)            | State management (persisted to localStorage) |
+| [Lucide Icons](https://lucide.dev)          | Icon library                          |
+| [VueUse](https://vueuse.org)               | Composables (dark mode, focus trap)   |
+| [@nuxtjs/sitemap](https://sitemap.nuxt.com) | Auto-generated sitemap               |
+| [Vercel](https://vercel.com)               | Hosting & deployment                  |
 
 Static site generation. No backend. No database. Content lives in Markdown files.
 
@@ -44,49 +50,66 @@ Static site generation. No backend. No database. Content lives in Markdown files
 herstory-africa/
 ├── app/
 │   ├── assets/
-│   │   ├── css/main.css            # Theme tokens, base styles, helpers
-│   │   └── fonts/                  # Playfair Display font files
+│   │   ├── css/main.css              # Theme tokens, base styles, accessibility helpers
+│   │   └── fonts/                    # Playfair Display font files
 │   ├── components/
 │   │   ├── Home/
-│   │   │   ├── Hero.vue            # Tagline, search bar, live results
-│   │   │   ├── FeaturedWomen.vue   # 6 featured profile cards
-│   │   │   ├── BrowseByRegion.vue  # Region grid with counts
-│   │   │   ├── BrowseByCause.vue   # Cause tag pills
-│   │   │   ├── TimelineTeaser.vue  # 4-event vertical timeline
-│   │   │   ├── LatestAdditions.vue # Recent women + articles
-│   │   │   └── SearchResults.vue   # Live search dropdown
+│   │   │   ├── Hero.vue              # Tagline, search bar, live results
+│   │   │   ├── FeaturedWomen.vue     # 6 featured profile cards
+│   │   │   ├── BrowseByRegion.vue    # Region grid with counts
+│   │   │   ├── BrowseByCause.vue     # Cause tag pills
+│   │   │   ├── TimelineTeaser.vue    # 4-event vertical timeline
+│   │   │   ├── LatestAdditions.vue   # Recent women + articles
+│   │   │   └── SearchResults.vue     # Live search dropdown
 │   │   ├── ArticleCard.vue
 │   │   ├── BackToTop.vue
+│   │   ├── FavoriteButton.vue        # Toggle favourite on any profile/article
 │   │   ├── FilterBy.vue
 │   │   ├── Footer.vue
-│   │   ├── Logo.vue                # Inline SVG, theme-reactive
-│   │   ├── Navbar.vue              # Desktop nav + mobile drawer
+│   │   ├── ListenButton.vue          # Text-to-speech UI (voice, speed, seek)
+│   │   ├── Logo.vue                  # Inline SVG, theme-reactive
+│   │   ├── Navbar.vue                # Desktop nav + mobile drawer
+│   │   ├── NewsletterCta.vue         # Inline newsletter call-to-action
+│   │   ├── NewsletterForm.vue        # Email input + subscription logic
+│   │   ├── NewsletterModal.vue       # Timed newsletter prompt
 │   │   ├── Pagination.vue
 │   │   ├── SearchBar.vue
 │   │   └── WomanCard.vue
+│   ├── composables/
+│   │   ├── useApp.ts                 # Convenience wrapper around the Pinia store
+│   │   ├── useReadTracker.ts         # Marks content as read on visit
+│   │   └── useTextToSpeech.ts        # Web Speech API logic (chunking, progress, seek)
 │   ├── content/
-│   │   ├── women/                  # One .md file per historical figure
-│   │   └── articles/               # Educational explainers
+│   │   ├── women/                    # 137 profiles (one .md file each)
+│   │   └── articles/                 # 24 educational explainers
 │   ├── layouts/
-│   │   └── default.vue             # Navbar, slot, Footer, BackToTop
+│   │   └── default.vue               # Skip-to-content link, Navbar, slot, Footer
 │   ├── pages/
-│   │   ├── index.vue               # Home page
+│   │   ├── index.vue                 # Home page
+│   │   ├── about.vue                 # About the project + creator
+│   │   ├── favorites.vue             # User's saved favourites
+│   │   ├── timeline.vue              # Full interactive timeline
 │   │   ├── women/
-│   │   │   ├── index.vue           # Listing with search, filters, pagination
-│   │   │   └── [name].vue          # Individual profile page
-│   │   └── articles/
-│   │       ├── index.vue           # Paginated article listing
-│   │       └── [id].vue            # Individual article page
+│   │   │   ├── index.vue             # Listing with search, filters, pagination
+│   │   │   └── [name].vue            # Individual profile page
+│   │   ├── articles/
+│   │   │   ├── index.vue             # Paginated article listing
+│   │   │   └── [id].vue              # Individual article page
+│   │   └── newsletter/
+│   │       ├── index.vue             # Newsletter landing page
+│   │       └── confirmed.vue         # Post-subscription confirmation
+│   ├── store/
+│   │   └── app.ts                    # Pinia store (favourites, read list, TTS prefs)
 │   ├── utils/
-│   │   ├── constants/content.ts    # Regions, eras, causes
-│   │   ├── types/content.ts        # TypeScript interfaces
-│   │   └── scrollToTop.ts          # Smooth scroll utility
+│   │   ├── constants/content.ts      # Regions, eras, causes
+│   │   ├── types/content.ts          # TypeScript interfaces
+│   │   └── scrollToTop.ts            # Smooth scroll utility
 │   ├── app.vue
-│   └── error.vue                   # Branded error page (404/500)
-├── content.config.ts               # Nuxt Content collection schemas
+│   └── error.vue                     # Branded error page (404/500)
+├── content.config.ts                 # Nuxt Content collection schemas
 ├── nuxt.config.ts
 ├── public/
-│   ├── women/                      # Profile images (JPG/PNG)
+│   ├── women/                        # Profile images (JPG/PNG)
 │   ├── herstory-africa-logo.svg
 │   ├── herstory-africa-favicon.svg
 │   └── robots.txt
@@ -106,8 +129,8 @@ name: "Funmilayo Ransome-Kuti"
 slug: "funmilayo-ransome-kuti"
 country: "Nigeria"
 region: "West Africa"
-born: 1900
-died: 1978
+born: 1900          # null if unknown
+died: 1978          # null if still alive
 era: "Colonial"
 causes:
   - "Political rights"
@@ -136,6 +159,18 @@ Valid values for key fields:
 - **region**: West Africa, East Africa, Southern Africa, Central Africa, North Africa
 - **era**: Pre-Colonial, Colonial, Independence, Modern, Contemporary
 - **causes**: See `app/utils/constants/content.ts` for the full list
+- **born / died**: Year as a number, or `null` if unknown / still alive
+
+---
+
+## Accessibility
+
+- Skip-to-content link for keyboard navigation
+- Semantic HTML throughout (`<article>`, `<nav>`, `<main>`, `<header>`, `<footer>`)
+- ARIA labels on interactive controls (search, filters, text-to-speech, newsletter)
+- `aria-live` regions for dynamic status messages
+- `prefers-reduced-motion` respected for animations
+- Light and dark mode with sufficient contrast
 
 ---
 
@@ -227,23 +262,26 @@ If you find a licensing issue, please open an issue immediately.
 ## Roadmap
 
 - [x] Project scaffold
-- [x] Initial profiles (17 women)
+- [x] 137 women's profiles
+- [x] 24 educational articles
 - [x] Home page with featured women
-- [x] Profile pages
+- [x] Profile and article pages
 - [x] Live search functionality
-- [x] Browse by region
-- [x] Browse by cause
-- [x] Timeline teaser
-- [x] Educational articles section
+- [x] Browse by region and cause
+- [x] Interactive full timeline page
 - [x] Mobile-responsive design
 - [x] Dark mode
 - [x] Pagination
-- [x] Navbar & mobile drawer
-- [x] SEO & sitemap
-- [ ] More profiles (target: 50+)
-- [ ] Interactive full timeline page
+- [x] Navbar and mobile drawer
+- [x] SEO and sitemap
+- [x] Text-to-speech (voice selection, speed control, seekable progress)
+- [x] Favourites system (persisted locally)
+- [x] Newsletter subscription
+- [x] About page
+- [x] Accessibility (skip-link, ARIA labels, screen reader support)
 - [ ] Multilingual support (French, Swahili, Arabic)
 - [ ] OG image generation
+- [ ] Community contributions portal
 
 ---
 
