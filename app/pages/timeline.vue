@@ -29,7 +29,7 @@
             class="tl-item"
           >
             <div class="tl-item__marker" :style="{ '--era-color': era.color }">
-              <span class="tl-item__year">{{ woman.born }}</span>
+              <span class="tl-item__year">{{ woman.born ?? "?" }}</span>
               <span class="tl-item__dot" />
               <span
                 v-if="index < era.women.length - 1"

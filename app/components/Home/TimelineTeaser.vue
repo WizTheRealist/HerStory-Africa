@@ -12,7 +12,7 @@
         class="timeline__item"
       >
         <div class="timeline__marker">
-          <span class="timeline__year">{{ woman.born }}</span>
+          <span class="timeline__year">{{ woman.born ?? "?" }}</span>
           <span class="timeline__dot" />
           <span v-if="index < moments.length - 1" class="timeline__line" />
         </div>

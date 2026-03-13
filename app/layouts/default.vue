@@ -1,7 +1,8 @@
 <template>
   <div class="app-layout">
+    <a href="#main-content" class="skip-link">Skip to content</a>
     <Navbar />
-    <main class="app-layout__main">
+    <main id="main-content" class="app-layout__main">
       <slot />
     </main>
     <Footer />
