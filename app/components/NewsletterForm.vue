@@ -5,6 +5,7 @@
         v-model="email"
         type="email"
         :placeholder="placeholder"
+        aria-label="Your email address"
         required
         class="newsletter-form__input"
         :class="{ 'newsletter-form__input--invalid': showValidationError }"
@@ -24,15 +25,15 @@
         <template v-else>Subscribe</template>
       </button>
     </div>
-    <p v-if="showValidationError" class="newsletter-form__error">
+    <p v-if="showValidationError" class="newsletter-form__error" aria-live="polite">
       Enter a valid email address
     </p>
-    <p v-else-if="error" class="newsletter-form__error">
+    <p v-else-if="error" class="newsletter-form__error" aria-live="polite">
       {{ error }}
     </p>
   </form>
 
-  <div v-else class="newsletter-form__success">
+  <div v-else class="newsletter-form__success" aria-live="polite">
     <LucideCheck v-if="alreadySubscribed" :size="20" class="newsletter-form__check" />
     <LucideMail v-else :size="20" class="newsletter-form__check" />
     <p>{{ successMessage }}</p>

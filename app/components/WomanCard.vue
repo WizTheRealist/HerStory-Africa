@@ -27,7 +27,7 @@
         <LucideMapPin :size="14" />
         {{ country }}
         <span class="woman-card__dates"
-          >· {{ born }}{{ died ? `–${died}` : "–present" }}</span
+          >· {{ born ?? "Unknown" }}{{ died ? `–${died}` : born ? "–present" : "" }}</span
         >
       </p>
       <ClientOnly>
@@ -59,7 +59,7 @@ const props = withDefaults(
     slug: string;
     image: string;
     country: string;
-    born: number;
+    born: number | null;
     died: number | null;
     era: string;
     summary: string;

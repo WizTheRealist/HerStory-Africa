@@ -37,7 +37,7 @@
             </span>
             <span class="woman-profile__meta-item">
               <LucideCalendar :size="16" />
-              {{ woman.born }}{{ woman.died ? `–${woman.died}` : "–present" }}
+              {{ woman.born ?? "Unknown" }}{{ woman.died ? `–${woman.died}` : woman.born ? "–present" : "" }}
             </span>
             <ClientOnly>
               <span v-if="womanRead" class="woman-profile__read-badge">

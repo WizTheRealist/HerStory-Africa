@@ -21,7 +21,7 @@
       <button
         v-show="status !== 'idle'"
         class="listen-btn__stop"
-        title="Stop"
+        aria-label="Stop playback"
         @click="stop"
       >
         <LucideSquare :size="12" />
@@ -31,6 +31,7 @@
         <div class="listen-btn__speed-wrapper">
           <select
             class="listen-btn__speed"
+            aria-label="Playback speed"
             :value="playbackSpeed"
             @change="handleSpeedChange"
           >
@@ -41,6 +42,7 @@
         <div v-if="voices.length > 1" class="listen-btn__voice-wrapper">
           <select
             class="listen-btn__voice"
+            aria-label="Voice"
             :value="preferredVoiceName"
             @change="handleVoiceChange"
           >
