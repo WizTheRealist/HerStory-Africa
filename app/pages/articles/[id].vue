@@ -20,7 +20,11 @@
         </div>
         <ClientOnly>
           <div class="article-page__actions">
-            <ShareButton :title="article.title" :text="article.description" :size="20" />
+            <ShareButton
+              :title="article.title"
+              :text="article.description"
+              :size="20"
+            />
             <FavoriteButton type="article" :slug="article.slug" :size="20" />
           </div>
         </ClientOnly>
@@ -28,7 +32,9 @@
       <h1 class="article-page__title">{{ article.title }}</h1>
       <p class="article-page__description">{{ article.description }}</p>
       <ClientOnly>
-        <ListenButton content-selector=".article-page__title, .article-page__description, .article-page__content" />
+        <ListenButton
+          content-selector=".article-page__title, .article-page__description, .article-page__content"
+        />
       </ClientOnly>
     </header>
 
@@ -135,7 +141,9 @@ useSeoMeta({
   description: () => article.value?.description ?? "",
   ogTitle: () => article.value?.title ?? "",
   ogDescription: () => article.value?.description ?? "",
-  ogImage: () => article.value?.image ?? "https://her-story-africa-seven.vercel.app/og-image.png",
+  ogImage: () =>
+    article.value?.image ??
+    "https://her-story-africa-seven.vercel.app/og-image.png",
 });
 </script>
 
@@ -217,6 +225,7 @@ useSeoMeta({
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: top;
   border-radius: 1rem;
   background: var(--surface-muted);
 }
