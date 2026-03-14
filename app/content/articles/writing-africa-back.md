@@ -4,6 +4,8 @@ description: "The African women writers who put their continent's stories on the
 date: 2026-03-09
 slug: writing-africa-back
 category: "Culture"
+image: "/articles/writing-africa-back.jpg"
+imageCredit: "Chimamanda Ngozi Adichie at Fall for the Book, 2013 / Wikimedia Commons / CC BY-NC"
 ---
 
 For most of the 20th century, the dominant stories told about Africa were told by outsiders: European explorers, colonial administrators, missionaries, and later, Western journalists and novelists. African people were characters in those stories, rarely the narrators. African women were the most invisible of all, present in the background as wives, mothers, and local colour, rarely as full human beings with inner lives, ambitions, and voices.

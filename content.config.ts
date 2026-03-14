@@ -40,6 +40,8 @@ export default defineContentConfig({
         date: z.string(),
         slug: z.string(),
         category: z.string(),
+        image: z.string().optional(),
+        imageCredit: z.string().optional(),
       }),
     }),
   },

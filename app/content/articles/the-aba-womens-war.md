@@ -4,6 +4,8 @@ description: "The story of how thousands of women in southeastern Nigeria organi
 date: 2026-03-08
 slug: the-aba-womens-war
 category: "History"
+image: "/articles/the-aba-womens-war.jpg"
+imageCredit: "Women of southeastern Nigeria, c. 1929 / Public Domain"
 ---
 
 In November 1929, thousands of women in southeastern Nigeria rose up against the British colonial government. They did not use weapons. They used their voices, their bodies, and their collective power. What followed was one of the largest and most significant women-led revolts in modern African history. The British called it the "Aba Women's Riots." The women who lived it called it Ogu Umunwaanyi, meaning "the Women's War."

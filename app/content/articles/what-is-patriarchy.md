@@ -4,6 +4,8 @@ description: "A clear and simple explanation of what patriarchy means, how it wo
 date: 2026-03-08
 slug: what-is-patriarchy
 category: "Concepts"
+image: "/articles/what-is-patriarchy.jpg"
+imageCredit: "Albertina Sisulu receiving honorary doctorate, 2007 / Wikimedia Commons"
 ---
 
 You have probably heard the word "patriarchy" before. Maybe in a conversation, in a social media debate, or in a classroom. It can feel like a big, academic word that does not connect to real life. But patriarchy is not abstract. It is one of the most practical things you can learn to recognise because it shapes almost everything around you.

@@ -4,6 +4,8 @@ description: "Social media has turned feminism into a debate. History tells a di
 date: 2026-03-10
 slug: what-your-timeline-wont-teach-you
 category: "Concepts"
+image: "/articles/what-your-timeline-wont-teach-you.jpg"
+imageCredit: "The Mock Grave of the 1929 Women's Riot / Wikimedia Commons / CC BY-SA 4.0"
 ---
 
 Open Twitter. Open TikTok. Open any comment section under any post that mentions women's rights in Africa. You will find the same thing every time: noise.

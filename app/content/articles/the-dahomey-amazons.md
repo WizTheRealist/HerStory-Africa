@@ -4,6 +4,8 @@ description: "The story of the Mino, a feared all-female military regiment in th
 date: 2026-03-08
 slug: the-dahomey-amazons
 category: "History"
+image: "/articles/the-dahomey-amazons.jpg"
+imageCredit: "Dahomey Amazons, c. 1890 / Public Domain"
 ---
 
 Long before any modern army debated whether women should serve in combat, an entire kingdom in West Africa already had the answer. The Kingdom of Dahomey, in what is now the Republic of Benin, maintained an all-female military regiment for nearly 200 years. Europeans called them the Dahomey Amazons. They called themselves the Mino, meaning "our mothers." They were among the most disciplined and feared soldiers in all of Africa.

@@ -1,6 +1,16 @@
 <template>
-  <NuxtLink :to="`/articles/${slug}`" class="article-card">
-    <div class="article-card__icon-wrapper">
+  <NuxtLink :to="`/articles/${slug}`" class="article-card" :class="{ 'article-card--has-image': image }">
+    <div v-if="image" class="article-card__image-wrapper">
+      <NuxtImg
+        :src="image"
+        :alt="title"
+        width="280"
+        height="158"
+        format="webp"
+        class="article-card__image"
+      />
+    </div>
+    <div v-else class="article-card__icon-wrapper">
       <LucideBookOpen :size="24" class="article-card__icon" />
     </div>
 
@@ -37,6 +47,7 @@ const props = defineProps<{
   date: string
   slug: string
   category?: string
+  image?: string
 }>()
 
 const { isRead } = useApp()
@@ -56,8 +67,8 @@ const formattedDate = computed(() => {
 .article-card {
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
-  padding: 1.25rem;
+  gap: 0.75rem;
+  padding: 1rem;
   border-radius: 1rem;
   background: var(--surface-elevated);
   border: 1px solid var(--border-light);
@@ -66,9 +77,38 @@ const formattedDate = computed(() => {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+@media (min-width: 480px) {
+  .article-card {
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+}
+
 .article-card:hover {
   border-color: var(--border-default);
   box-shadow: var(--shadow-soft);
+}
+
+.article-card__image-wrapper {
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 5.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: var(--surface-muted);
+}
+
+@media (min-width: 480px) {
+  .article-card__image-wrapper {
+    width: 8.5rem;
+    border-radius: 0.625rem;
+  }
+}
+
+.article-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .article-card__icon-wrapper {
@@ -97,7 +137,8 @@ const formattedDate = computed(() => {
 .article-card__meta {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
 }
 
 .article-card__category {
@@ -114,6 +155,7 @@ const formattedDate = computed(() => {
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .article-card__read-badge {

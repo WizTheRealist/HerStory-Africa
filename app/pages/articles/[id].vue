@@ -32,6 +32,20 @@
       </ClientOnly>
     </header>
 
+    <figure v-if="article.image" class="article-page__hero">
+      <NuxtImg
+        :src="article.image"
+        :alt="article.title"
+        width="768"
+        height="432"
+        format="webp"
+        class="article-page__hero-img"
+      />
+      <figcaption v-if="article.imageCredit" class="article-page__hero-credit">
+        {{ article.imageCredit }}
+      </figcaption>
+    </figure>
+
     <div class="article-page__content">
       <ContentRenderer :value="article" />
     </div>
@@ -92,7 +106,7 @@ useSeoMeta({
   description: () => article.value?.description ?? "",
   ogTitle: () => article.value?.title ?? "",
   ogDescription: () => article.value?.description ?? "",
-  ogImage: "https://her-story-africa-seven.vercel.app/og-image.png",
+  ogImage: () => article.value?.image ?? "https://her-story-africa-seven.vercel.app/og-image.png",
 });
 </script>
 
@@ -163,6 +177,26 @@ useSeoMeta({
   line-height: 1.6;
   color: var(--text-secondary);
   margin: 1rem 0 0;
+}
+
+/* ── Hero image ── */
+.article-page__hero {
+  margin: 0 0 2.5rem;
+}
+
+.article-page__hero-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 1rem;
+  background: var(--surface-muted);
+}
+
+.article-page__hero-credit {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  margin: 0.5rem 0 0;
+  text-align: right;
 }
 
 /* ── Content body ── */

@@ -4,6 +4,8 @@ description: "A clear look at where gender roles come from, how they shape every
 date: 2026-03-08
 slug: what-are-gender-roles
 category: "Concepts"
+image: "/articles/what-are-gender-roles.jpg"
+imageCredit: "Queen Mother of Ghana / Wikimedia Commons / CC BY 2.0"
 ---
 
 From the moment a baby is born, the world starts assigning it a script. If it is a boy: be strong, be tough, be the provider. If it is a girl: be gentle, be helpful, be the caretaker. Before a child can even speak, the expectations are already in place. These expectations are what we call gender roles.

@@ -4,6 +4,8 @@ description: "Moving beyond the buzzword to paint a real picture of what a gende
 date: 2026-03-08
 slug: what-does-gender-equality-look-like
 category: "Concepts"
+image: "/articles/what-does-gender-equality-look-like.jpg"
+imageCredit: "Ellen Johnson Sirleaf, first elected female African head of state / U.S. Department of Defense / Public Domain"
 ---
 
 Gender equality gets talked about a lot. It appears in speeches, policies, social media posts, and school curricula. But ask most people what it actually looks like in practice and the answers get vague. If we cannot describe it clearly, we cannot build it deliberately. So let us try.

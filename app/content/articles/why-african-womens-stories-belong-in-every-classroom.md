@@ -4,6 +4,8 @@ description: "How the absence of women from African history education harms ever
 date: 2026-03-08
 slug: why-african-womens-stories-belong-in-every-classroom
 category: "Why It Matters"
+image: "/articles/why-african-womens-stories-belong-in-every-classroom.jpg"
+imageCredit: "School children, Cape Town, South Africa / Public Domain"
 ---
 
 Think about the history you learned in school. Think about the names, the events, the leaders. Now ask yourself: how many of them were women?

@@ -67,6 +67,7 @@
           :date="a.date"
           :slug="a.slug"
           :category="a.category"
+          :image="a.image"
         />
       </div>
       <div v-else class="favorites__empty">

@@ -4,6 +4,8 @@ description: "Challenging the myth that African women were historically confined
 date: 2026-03-08
 slug: beyond-the-kitchen
 category: "History"
+image: "/articles/beyond-the-kitchen.jpg"
+imageCredit: "Les Amazones du Dahomey, H. Frey, 1890 / Public Domain"
 ---
 
 If you ask most people to name great African leaders from history, the names that come up are almost always men. Kings, warriors, freedom fighters. But the truth is that African women have always been leaders, warriors, diplomats, and builders. Their stories were not absent from history. They were removed from it, deliberately or carelessly, and it is time to put them back.

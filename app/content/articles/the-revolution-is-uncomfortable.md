@@ -4,6 +4,8 @@ description: "Every generation of African women who pushed for change made peopl
 date: 2026-03-10
 slug: the-revolution-is-uncomfortable
 category: "Why It Matters"
+image: "/articles/the-revolution-is-uncomfortable.jpg"
+imageCredit: "Wangari Maathai, Nobel Peace Prize laureate / Wikimedia Commons / CC BY 2.0"
 ---
 
 A friend of mine said something recently that I have not been able to shake. She said the revolution happening now is necessary. It may be uncomfortable for some, triggering maybe. A lot of the voices raised in regards to this motion might not be morally correct or might be a little twisted. But they are all part of a necessary process to get to where we need to be. Which is total liberation and equal rights for all people.

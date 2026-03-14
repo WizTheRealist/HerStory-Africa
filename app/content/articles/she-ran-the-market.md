@@ -4,6 +4,8 @@ description: "Long before modern business, African women were running trade netw
 date: 2026-03-09
 slug: she-ran-the-market
 category: "History"
+image: "/articles/she-ran-the-market.jpg"
+imageCredit: "Market women in Ghana / Wikimedia Commons / CC BY-SA 4.0"
 ---
 
 When people talk about African economics or business history, the conversation usually focuses on men. Kings who controlled trade routes. Merchants who travelled across the Sahara. But if you look closely at what was actually happening on the ground across West Africa for hundreds of years, you find something different. Women were running the markets. Women were controlling the economy. Women were the backbone of trade.

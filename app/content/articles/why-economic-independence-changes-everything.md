@@ -4,6 +4,8 @@ description: "How having your own money transforms a woman's choices, safety, an
 date: 2026-03-08
 slug: why-economic-independence-changes-everything
 category: "Why It Matters"
+image: "/articles/why-economic-independence-changes-everything.jpg"
+imageCredit: "Sellers at Bodija Market, Ibadan, Nigeria / Wikimedia Commons / CC BY-SA 4.0"
 ---
 
 There is a pattern that shows up in almost every conversation about women's rights: at some point, the conversation turns to money. Not because women's rights are about money, but because money determines how much freedom a person actually has. A woman who earns her own income makes different choices than a woman who depends entirely on someone else. She stays in relationships because she wants to, not because she has no other option. She sends her children to school because she can afford to. She speaks up because her survival does not depend on someone else's approval.

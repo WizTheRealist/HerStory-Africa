@@ -4,6 +4,8 @@ description: "How 20,000 South African women of all races marched to the Union B
 date: 2026-03-08
 slug: the-womens-march-of-1956
 category: "History"
+image: "/articles/the-womens-march-of-1956.jpg"
+imageCredit: "Lilian Ngoyi, anti-apartheid activist / Wikimedia Commons"
 ---
 
 On August 9, 1956, approximately 20,000 women marched to the Union Buildings in Pretoria, the seat of South Africa's apartheid government. They came from every corner of the country. They were Black, Coloured, Indian, and white. They were domestic workers, teachers, nurses, factory workers, and mothers. They came to deliver a message that the government did not want to hear: women would not carry passes.

@@ -4,6 +4,8 @@ description: "A look at how European colonisation disrupted the power, autonomy,
 date: 2026-03-08
 slug: how-colonialism-rewrote-the-rules
 category: "History"
+image: "/articles/how-colonialism-rewrote-the-rules.jpg"
+imageCredit: "Map of colonial Africa, 1897 / Public Domain"
 ---
 
 One of the most persistent myths in conversations about gender in Africa is that women have always been subordinate. That the man leads, the woman follows, and that is just "African culture." But history tells a different story. In many African societies before European colonisation, women held land, controlled markets, led communities, served as spiritual authorities, and even ruled kingdoms. Colonialism changed that. Deliberately and systematically.

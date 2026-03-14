@@ -4,6 +4,8 @@ description: "How investing in girls' education transforms families, communities
 date: 2026-03-08
 slug: why-educating-girls-changes-everything
 category: "Why It Matters"
+image: "/articles/why-educating-girls-changes-everything.jpg"
+imageCredit: "School girls in Arusha, Tanzania / Wikimedia Commons / CC BY-SA 3.0"
 ---
 
 There is a saying that gets repeated often: "If you educate a man, you educate an individual. If you educate a woman, you educate a nation." It sounds like one of those things people say to be inspirational. But it is actually backed by decades of research and real-world evidence. Educating girls is one of the most powerful things any society can do.

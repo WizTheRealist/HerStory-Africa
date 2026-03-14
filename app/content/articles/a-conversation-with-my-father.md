@@ -4,6 +4,8 @@ description: "What happens when you tell your father you built a website about A
 date: 2026-03-09
 slug: a-conversation-with-my-father
 category: "Why It Matters"
+image: "/articles/a-conversation-with-my-father.gif"
+imageCredit: "Funmilayo Ransome-Kuti and PM Balewa, early 1960s / Public Domain"
 ---
 
 Not long ago, I had a conversation with my father about this website. It didn't go the way I expected, but it taught me more about why this work matters than almost anything else has.

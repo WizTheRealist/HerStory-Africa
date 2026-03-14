@@ -4,6 +4,8 @@ description: "Challenging the idea that supporting gender equality makes a man l
 date: 2026-03-08
 slug: why-men-who-support-women-are-not-weak
 category: "Why It Matters"
+image: "/articles/why-men-who-support-women-are-not-weak.jpg"
+imageCredit: "The Sisulu wedding with Nelson Mandela and Anton Lembede, 1944 / Public Domain"
 ---
 
 There is a persistent idea in many communities that a man who supports women's rights is somehow less of a man. That he is soft. That he is trying to please women. That he has been "feminised." This idea shows up in jokes, in arguments, and in the way boys are socialised from a young age. And it is one of the most damaging myths standing in the way of gender equality.

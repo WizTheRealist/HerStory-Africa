@@ -13,6 +13,7 @@
         :date="article.date"
         :slug="article.slug"
         :category="article.category"
+        :image="article.image"
       />
     </div>
   </section>

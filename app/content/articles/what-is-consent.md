@@ -4,6 +4,8 @@ description: "A straightforward guide to understanding consent in everyday life,
 date: 2026-03-08
 slug: what-is-consent
 category: "Concepts"
+image: "/articles/what-is-consent.png"
+imageCredit: "Funmilayo Ransome-Kuti and the Women's Union, UNESCO illustration / CC BY-SA 3.0"
 ---
 
 Consent is one of those words that comes up a lot but is rarely explained properly. People hear it mainly in conversations about relationships or sexual violence, and that is an important context. But consent is much bigger than that. It is a principle that applies to your body, your boundaries, your choices, and your everyday interactions. Understanding it clearly is one of the most important things you can do as a young person.

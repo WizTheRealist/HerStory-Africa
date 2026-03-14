@@ -4,6 +4,8 @@ description: "Most of the women who built the freedoms African women have today 
 date: 2026-03-10
 slug: they-didnt-call-it-feminism-either
 category: "History"
+image: "/articles/they-didnt-call-it-feminism-either.jpg"
+imageCredit: "Queen Nzinga negotiating with the Portuguese, 1657 / Public Domain"
 ---
 
 A friend read [A Conversation With My Father](/articles/a-conversation-with-my-father) and said something that stuck with me: "Some of those women didn't fight for women's rights directly, but the work they did while being women in the times they were in somehow made way for feminism to move forward."

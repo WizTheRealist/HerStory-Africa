@@ -4,6 +4,8 @@ description: "Behind every African independence movement were women who organise
 date: 2026-03-09
 slug: daughters-of-independence
 category: "History"
+image: "/articles/daughters-of-independence.jpg"
+imageCredit: "Demonstration of German Colonial Power in Africa, 1897 / Public Domain"
 ---
 
 Africa's independence movements are usually told as men's stories. Nkrumah, Mandela, Lumumba, Kenyatta, Nyerere. These men were remarkable, and their contributions were real. But behind, beside, and sometimes in front of them were women who organised communities, endured prison, smuggled information, led protests, and kept movements alive when their male counterparts were imprisoned or exiled. Those women were written out of the official story. Here, we write them back in.
