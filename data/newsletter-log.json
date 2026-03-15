@@ -1,3 +1,15 @@
 {
-  "editions": []
+  "editions": [
+    {
+      "date": "2026-03-15",
+      "type": "woman",
+      "mainFeature": "esther-afua-ocloo",
+      "alsoRead": [
+        "why-representation-matters",
+        "feminism-equality-not-anti-men"
+      ],
+      "region": "West Africa",
+      "subject": "She turned 10 shillings into a global movement"
+    }
+  ]
 }
