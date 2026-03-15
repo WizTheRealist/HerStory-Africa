@@ -1,0 +1,27 @@
+name: Factual Correction
+description: Report an error in a profile or article.
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which profile or article?
+      placeholder: e.g. Funmilayo Ransome-Kuti, or the article "Beyond the Kitchen"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: What is incorrect?
+      description: Quote the specific text that is wrong and explain what it should say.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source for the correction
+      description: Please provide a link or reference that supports the correct information.
+    validations:
+      required: true
