@@ -136,14 +136,27 @@ const { data: related } = await useAsyncData(
   { watch: [article] },
 );
 
+const canonicalUrl = computed(() =>
+  article.value ? getAbsoluteUrl(`/articles/${article.value.slug}`) : "",
+);
+const ogImageUrl = computed(() => getAbsoluteUrl(article.value?.image));
+
 useSeoMeta({
   title: () => article.value?.title ?? "Article not found",
   description: () => article.value?.description ?? "",
   ogTitle: () => article.value?.title ?? "",
   ogDescription: () => article.value?.description ?? "",
-  ogImage: () =>
-    article.value?.image ??
-    "https://her-story-africa-seven.vercel.app/og-image.png",
+  ogImage: ogImageUrl,
+  ogUrl: canonicalUrl,
+  ogType: "article",
+  twitterCard: "summary_large_image",
+  twitterTitle: () => article.value?.title ?? "",
+  twitterDescription: () => article.value?.description ?? "",
+  twitterImage: ogImageUrl,
+});
+
+useHead({
+  link: [{ rel: "canonical", href: canonicalUrl }],
 });
 </script>
 

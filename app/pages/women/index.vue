@@ -154,9 +154,21 @@ function clearFilters() {
   readFilter.value = ''
 }
 
+const womenDescription =
+  'Browse the full archive of African women who shaped history — filter by region, era, or cause.'
+
 useSeoMeta({
   title: 'All Women',
-  description: 'Browse the full archive of African women who shaped history — filter by region, era, or cause.',
+  description: womenDescription,
+  ogTitle: 'All Women',
+  ogDescription: womenDescription,
+  ogImage: getAbsoluteUrl(),
+  ogUrl: getAbsoluteUrl('/women'),
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'All Women',
+  twitterDescription: womenDescription,
+  twitterImage: getAbsoluteUrl(),
 })
 </script>
 

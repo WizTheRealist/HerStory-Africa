@@ -132,9 +132,21 @@ function clearFilters() {
   readFilter.value = ''
 }
 
+const articlesDescription =
+  'Context, analysis, and the bigger picture behind the stories of African women who shaped history.'
+
 useSeoMeta({
   title: 'Articles & Explainers',
-  description: 'Context, analysis, and the bigger picture behind the stories of African women who shaped history.',
+  description: articlesDescription,
+  ogTitle: 'Articles & Explainers',
+  ogDescription: articlesDescription,
+  ogImage: getAbsoluteUrl(),
+  ogUrl: getAbsoluteUrl('/articles'),
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Articles & Explainers',
+  twitterDescription: articlesDescription,
+  twitterImage: getAbsoluteUrl(),
 })
 </script>
 

@@ -138,12 +138,27 @@ const { data: related } = await useAsyncData(
   { watch: [woman] },
 );
 
+const canonicalUrl = computed(() =>
+  woman.value ? getAbsoluteUrl(`/women/${woman.value.slug}`) : "",
+);
+const ogImageUrl = computed(() => getAbsoluteUrl(woman.value?.image));
+
 useSeoMeta({
   title: () => woman.value?.name ?? "Woman not found",
   description: () => woman.value?.summary ?? "",
   ogTitle: () => woman.value?.name ?? "",
   ogDescription: () => woman.value?.summary ?? "",
-  ogImage: () => woman.value?.image ?? "",
+  ogImage: ogImageUrl,
+  ogUrl: canonicalUrl,
+  ogType: "profile",
+  twitterCard: "summary_large_image",
+  twitterTitle: () => woman.value?.name ?? "",
+  twitterDescription: () => woman.value?.summary ?? "",
+  twitterImage: ogImageUrl,
+});
+
+useHead({
+  link: [{ rel: "canonical", href: canonicalUrl }],
 });
 </script>
 
