@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     prerender: {
-      routes: ["/"],
+      routes: ["/", "/sitemap.xml"],
       crawlLinks: true,
     },
   },
@@ -182,6 +182,7 @@ export default defineNuxtConfig({
       priority: 0.7,
       lastmod: new Date().toISOString(),
     },
+    sitemaps: false,
   },
 
   // ── App Head (SEO + Social) ─────────────────────────────────────────
